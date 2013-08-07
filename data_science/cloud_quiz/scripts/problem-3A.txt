@@ -1,0 +1,13 @@
+register s3n://uw-cse-344-oregon.aws.amazon.com/myudfs.jar;
+
+raw = LOAD 's3n://uw-cse-344-oregon.aws.amazon.com/cse344-test-file' USING TextLoader as (line:chararray);
+
+ntriples = foreach raw generate FLATTEN(myudfs.RDFSplit3(line)) as (subject:chararray,predicate:chararray,object:chararray);
+
+filtered1 = filter ntriples by subject matches '.*business.*';
+
+filtered2 = foreach filtered1 generate subject as subject2, predicate as predicate2, object as object2;
+
+j = join filtered1 by subject, filtered2 by subject2;
+
+store (distinct j) into '/home/hadoop/output-3A' using PigStorage();

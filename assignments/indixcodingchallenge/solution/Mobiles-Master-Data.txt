@@ -1,0 +1,612 @@
+Indix Product Name	Indix Product ID
+Alcatel OT 813D	M0001
+Apple iPhone 3GS 8GB (Airtel lock)	M0002
+BlackBerry 9330 (Tata Indicom)	M0003
+BlackBerry Torch 9800	M0004
+BlackBerry Bold 9790	M0005
+BlackBerry Bold 9900	M0006
+BlackBerry Curve 8520	M0007
+BlackBerry Curve 9360	M0008
+BlackBerry Curve 9380	M0009
+BlackBerry 9670	M0010
+BlackBerry Torch 9810	M0011
+BlackBerry Torch 9860	M0012
+Dell XCD28	M0013
+Dell XCD35	M0014
+HTC EVO 3D	M0015
+HTC Legend A6363	M0016
+Intex IN 007 Maxima	M0017
+Intex Nano IN 1212	M0018
+Intex IN 2040E	M0019
+Intex IN 2060	M0020
+Intex IN 2080	M0021
+Intex IN 5030	M0022
+Intex IN 8809	M0023
+Intex V.Show Projector IN 8810	M0024
+Intex Kool 4370	M0025
+Karbonn K 111	M0026
+Karbonn K 505	M0027
+Karbonn K336	M0028
+Karbonn K433	M0029
+Karbonn K455	M0030
+Karbonn K666	M0031
+LG A120	M0032
+LG A165	M0033
+LG A230	M0034
+LG Chocolate BL40	M0035
+LG C105	M0036
+LG C310	M0037
+LG Cookie Fresh GS290	M0038
+LG GB110	M0039
+LG Buzz GB220	M0040
+LG GS108	M0041
+LG GS155	M0042
+LG GU220	M0043
+LG GU285	M0044
+LG GW300	M0045
+LG GX300	M0046
+LG GX500	M0047
+LG Optimus 2X P990	M0048
+LG Optimus 3D P920	M0049
+LG Optimus Black P970	M0050
+LG Optimus Hub E510	M0051
+LG Optimus Me P350	M0052
+LG Optimus NET P690	M0053
+LG Optimus One P500	M0054
+LG Optimus Pro C660	M0055
+LG Optimus Sol E730	M0056
+LG Optimus Sol E730	M0057
+LG P520	M0058
+LG S310	M0059
+LG T300	M0060
+LG T515	M0061
+LG X330	M0062
+Lava A10	M0063
+Lava A11	M0064
+Lava A16	M0065
+Lava B5 Qwerty	M0066
+Lava B8	M0067
+Lava KKT 30	M0068
+Lava M70	M0069
+Lava M9	M0070
+Lava S12	M0071
+Lemon Duo 212	M0072
+Lemon Duo 306	M0073
+Lemon Duo 309	M0074
+Lemon Duo 325	M0075
+Lemon Duo 339 Super	M0076
+Lemon Duo 339 Super	M0077
+Lemon 349	M0078
+Lemon Flip F101	M0079
+Lemon W100	M0080
+Lemon 505	M0081
+Maxx GC735	M0082
+Maxx MQ601	M0083
+Maxx MSD7	M0084
+Maxx Zippy MT105	M0085
+Maxx MX124	M0086
+Maxx Yoyo MX166	M0087
+Maxx MX192 -Tune	M0088
+Maxx MX250	M0089
+Maxx MX349	M0090
+Maxx MX365	M0091
+Maxx Tiny MX372	M0092
+Maxx MX388	M0093
+Maxx MX469	M0094
+Micromax A70	M0095
+Micromax Superfone A85	M0096
+Micromax Andro A60	M0097
+Micromax Gamolution G4	M0098
+Micromax GC256	M0099
+Micromax GC360	M0100
+Micromax M2	M0101
+Micromax Q2	M0102
+Micromax Q2+	M0103
+Micromax Q3	M0104
+Micromax Q35	M0105
+Micromax Q50	M0106
+Micromax Bling Q55	M0107
+Micromax Q56	M0108
+Micromax Q6	M0109
+Micromax Q7	M0110
+Micromax Q75	M0111
+Micromax Q80	M0112
+Micromax W900	M0113
+Micromax X100	M0114
+Micromax X111	M0115
+Micromax X117	M0116
+Micromax X200	M0117
+Micromax X210	M0118
+Micromax X222	M0119
+Micromax X228	M0120
+Micromax X229	M0121
+Micromax X230	M0122
+Micromax X231	M0123
+Micromax X235	M0124
+Micromax X261	M0125
+Micromax X263	M0126
+Micromax X265	M0127
+Micromax X266	M0128
+Micromax X270	M0129
+Micromax X285	M0130
+Micromax X288	M0131
+Micromax X290	M0132
+Micromax X330	M0133
+Micromax X360	M0134
+Micromax X365	M0135
+Micromax X395	M0136
+Micromax X40	M0137
+Micromax X410	M0138
+Micromax Van Gogh X450	M0139
+Micromax Psych X505	M0140
+Micromax Blade X55	M0141
+Micromax X560	M0142
+Micromax X600	M0143
+Micromax X78	M0144
+Motorola EX119	M0145
+Motorola Starling EX115	M0146
+Motorola Kingfisher EX128	M0147
+Motorola EX109	M0148
+Motorola WX260	M0149
+Motorola WX290	M0150
+Motorola EX212	M0151
+Motorola RAZR XT910	M0152
+Motorola WX181	M0153
+Nokia 100	M0154
+Nokia 101	M0155
+Nokia 1280	M0156
+Nokia 1508	M0157
+Nokia 1616	M0158
+Nokia 2700 Classic	M0159
+Nokia 2730 Classic	M0160
+Nokia 500	M0161
+Nokia 5233	M0162
+Nokia 700	M0163
+Nokia 701	M0164
+Nokia 7020	M0165
+Nokia 7230	M0166
+Nokia Asha 200	M0167
+Nokia Asha 300	M0168
+Nokia C1-01	M0169
+Nokia C1-02	M0170
+Nokia C2-00	M0171
+Nokia C2-01	M0172
+Nokia C2-02 Touch and Type	M0173
+Nokia C2-03 Touch and Type	M0174
+Nokia C2-06	M0175
+Nokia C5-03	M0176
+Nokia C5-05	M0177
+Nokia C6-01	M0178
+Nokia E5	M0179
+Nokia E6	M0180
+Nokia E63	M0181
+Nokia E7	M0182
+Nokia Lumia 710	M0183
+Nokia Lumia 800	M0184
+Nokia X1-01	M0185
+Nokia X2	M0186
+Nokia X2-01	M0187
+Nokia X2-02	M0188
+Nokia X3-02 Touch and Type	M0189
+Onida F099	M0190
+Onida F970	M0191
+Onida G145	M0192
+Onida G590F	M0193
+Onida G720	M0194
+Onida G725	M0195
+Onida KYT005	M0196
+Onida KYT007	M0197
+Samsung Duos B5722	M0198
+Samsung C3010	M0199
+Samsung C3011	M0200
+Samsung Champ Deluxe Duos C3312	M0201
+Samsung Metro C3520	M0202
+Samsung C3752	M0203
+Samsung C5212	M0204
+Samsung C6112	M0205
+Samsung Champ 2 C3330	M0206
+Samsung S3770	M0207
+Samsung Champ-Mega Cam C3303I	M0208
+Samsung Corby Plus B3410	M0209
+Samsung Corby S3653	M0210
+Samsung Corby TXT B3210	M0211
+Samsung Guru E1100	M0212
+Samsung Guru E2152	M0213
+Samsung Galaxy 3 I5801	M0214
+Samsung Galaxy 5 I5503	M0215
+Samsung Galaxy Fit S5670	M0216
+Samsung Galaxy Pop S5570	M0217
+Samsung Galaxy Pro B7510	M0218
+Samsung Galaxy R I9103	M0219
+Samsung Galaxy S LCD I9003	M0220
+Samsung Galaxy Tab P1000	M0221
+Samsung Galaxy Y S5360	M0222
+Samsung B559	M0223
+Samsung Guru Muzik B519	M0224
+Samsung Hero E2230	M0225
+Samsung Hero E2232	M0226
+Samsung E3210	M0227
+Samsung Hero E3213	M0228
+Samsung MPOWER TXT M369	M0229
+Samsung Metro C3560	M0230
+Samsung Metro DUOS C3322	M0231
+Samsung Omnia W I8350	M0232
+Samsung Metro S3600	M0233
+Samsung Metro S5200	M0234
+Samsung Primo S5610	M0235
+Samsung Monte S5620	M0236
+Samsung Star Duos B7722	M0237
+Samsung Star II S5263	M0238
+Samsung Wave II S8530	M0239
+Samsung Wave III S8600	M0240
+Samsung Wave M S7250	M0241
+Samsung Wave Y S5380	M0242
+Sony Ericsson Xperia X10	M0243
+Sony Ericsson Xperia X10	M0244
+Sony Ericsson Xperia X8	M0245
+Spice D-90	M0246
+Spice G-6550	M0247
+Spice M-4250	M0248
+Spice M-5056	M0249
+Spice M-5100	M0250
+Spice M-5180	M0251
+Spice M-5262	M0252
+Spice M-5350	M0253
+Spice M-5445	M0254
+Spice M-5454	M0255
+Spice M-5570	M0256
+Spice Flo M-5700	M0257
+Spice Sports M-6	M0258
+Spice M-6200	M0259
+Spice M-6350	M0260
+Spice M-6400	M0261
+Spice M-6450	M0262
+Spice M-6460	M0263
+Spice M-6900	M0264
+Spice MI-280	M0265
+Spice Mi-270	M0266
+Spice Mi-310	M0267
+Spice Popkorn M-9000	M0268
+Videocon Qruz3 V1435	M0269
+Videocon V1307	M0270
+Videocon V1402	M0271
+Videocon V1410	M0272
+Videocon V1412	M0273
+Videocon V1414	M0274
+Videocon V1436	M0275
+Videocon V1440	M0276
+Videocon V1448	M0277
+Videocon V1450	M0278
+Videocon V1456	M0279
+Videocon V1476	M0280
+Videocon V1530	M0281
+Videocon V1531	M0282
+Videocon V1533	M0283
+Videocon V1540	M0284
+Videocon V1606	M0285
+Videocon V1611	M0286
+Videocon V1688	M0287
+Videocon V1705	M0288
+Videocon V1755	M0289
+Videocon V1760	M0290
+Videocon V202	M0291
+Videocon V7400	M0292
+Vodafone 858 Smart U8160	M0293
+Wynncom Y10	M0294
+Wynncom Y30	M0295
+Wynncom Y50	M0296
+Zen X410	M0297
+iBall Aura V36	M0298
+Intex IN 4470N	M0299
+iBall Aspire QE45	M0300
+Micromax Q55 Bling (Limited IIFA Edition)	M0301
+Alcatel OT 517 D	M0302
+Lemon Duo 216+	M0303
+Samsung Mpower Muzic F219	M0304
+iBall Shaan S-306	M0305
+Samsung CorbyPRO B5310	M0306
+Spice G-6500	M0307
+Spice M-5370	M0308
+Spice M-6700	M0309
+Spice QT-44	M0310
+Spice QT-52	M0311
+Spice QT-56	M0312
+LG Optimus Net Dual Sim P698	M0313
+Lava KKT 34+	M0314
+Karbonn K 210	M0315
+Karbonn K 220	M0316
+Karbonn K 325	M0317
+Karbonn K 334	M0318
+Karbonn K 570	M0319
+Samsung Star S5233	M0320
+Onida F930 3G	M0321
+Onida G721 3G	M0322
+LG Brio GM200	M0323
+Samsung Ch@t 527	M0324
+Lava ARC 21	M0325
+Lava KKT 28	M0326
+Lava KKT 35	M0327
+Lava KKT 39	M0328
+Lava KKT 40	M0329
+Lava KKT 50	M0330
+Spice C-5060	M0331
+Spice M-4262	M0332
+Spice M-5115	M0333
+Samsung mPower TV S239	M0334
+IBall Shaan S-09	M0335
+Karbonn A 1	M0336
+Karbonn K 1010	M0337
+Karbonn K 1515	M0338
+Karbonn Magic K 1616	M0339
+Karbonn K 9	M0340
+Apple iPhone 3GS 8GB (Airtel lock)	M0341
+Alcatel OT808	M0342
+Karbonn KC 555	M0343
+Lava M 20	M0344
+LG Lollipop GD580	M0345
+Samsung Metro C3200	M0346
+Spice Blueberry Aura QT-64	M0347
+Vox VPS 309	M0348
+Vox VES105	M0349
+Sony Ericsson W8	M0350
+Sony Ericsson W8	M0351
+Intex IN 4470	M0352
+Samsung A200	M0353
+Samsung Guru E1080T	M0354
+Samsung Champ C3300K	M0355
+Nokia 5200	M0356
+Lemon Flip F101	M0357
+Intex IN 4040	M0358
+Vox VGS 507	M0359
+Vox VGS 509	M0360
+Vox VGS 601	M0361
+Vox VGS 603	M0362
+Vox VPS 303	M0363
+Vox VPS 305	M0364
+Reliance 3G Tab	M0365
+Karbonn K 580i	M0366
+Samsung E1360	M0367
+Samsung E1125	M0368
+Samsung S5330	M0369
+Samsung Galaxy S Plus I9001	M0370
+Samsung S3110	M0371
+Videocon V1655	M0372
+Onida KYT007	M0373
+LG Town GT350	M0374
+Samsung Guru E1175T	M0375
+Samsung Hero Music E1232B	M0376
+Alcatel OT 506D	M0377
+Lemon DUO 404	M0378
+BlackBerry 9330	M0379
+BlackBerry Bold 9780	M0380
+Karbonn K446	M0381
+LG A165	M0382
+Onida F099	M0383
+Maxx MX243	M0384
+Samsung E1170	M0385
+Videocon V1290	M0386
+Videocon V1540	M0387
+Lava KKT 22+	M0388
+Lava ARC 21	M0389
+Maxx MX188	M0390
+Maxx MX484	M0391
+BlackBerry 9330	M0392
+Maxx MT150	M0393
+Alcatel OT-710 D	M0394
+Onida V130A	M0395
+Micromax Superfone Lite A75	M0396
+Onida G510	M0397
+Spice QT-58	M0398
+Lava KKT 28	M0399
+Lava KKT 28	M0400
+Karbonn K455	M0401
+Karbonn K485	M0402
+Onida G484	M0403
+Micromax X360	M0404
+Onida F860	M0405
+Samsung B559	M0406
+Samsung W139	M0407
+Samsung Duos Touch W299	M0408
+Onida G495	M0409
+Samsung M569	M0410
+Ion E101	M0411
+LG U400	M0412
+Samsung Wave 575 S5753	M0413
+Intex IN 4040	M0414
+Spice M-4580N	M0415
+Samsung Guru E2152	M0416
+Samsung Guru Dual 26 E1252	M0417
+Samsung Corby II S3850	M0418
+Samsung Corby S3653W	M0419
+Alcatel OT 506D	M0420
+Intex IN 4460	M0421
+Vox VGS 601	M0422
+Lemon Duo 325	M0423
+Samsung Galaxy S Plus I9001	M0424
+Samsung chat 335 S3353	M0425
+Spice M-5350	M0426
+Samsung Star S5233	M0427
+Zen Z82	M0428
+Vox VES105	M0429
+Vox VES105	M0430
+Lava ARC 21	M0431
+Lava ARC 21	M0432
+Maxx MQ601	M0433
+Maxx MT150	M0434
+Maxx MT150	M0435
+Vox VGS 507	M0436
+Vox VGS 507	M0437
+Vox VGS 507	M0438
+Vox VGS 601	M0439
+Vox VGS 603	M0440
+Maxx MQ430	M0441
+Lemon 203	M0442
+Lemon DUO 404	M0443
+Samsung Galaxy S 2 I9100	M0444
+LG 6210	M0445
+Micromax Bling Q55	M0446
+Nokia N85	M0447
+Apple iPhone 3GS 16GB (Airtel lock)	M0448
+Apple iPhone 3GS 32GB (Vodafone lock)	M0449
+Apple iPad 32GB (Wi-Fi only)	M0450
+Maxx MQ430	M0451
+Onida G545	M0452
+Samsung Metro E2550	M0453
+Vox VGS 307	M0454
+Nokia C7	M0455
+Nokia C7	M0456
+Nokia C7	M0457
+Nokia C7	M0458
+Nokia X3	M0459
+Samsung Guru E1085T	M0460
+Vox VES105	M0461
+LG Ice Cream 2 GD310	M0462
+Apple iPad 16GB (Wi-Fi + 3G)	M0463
+Lemon Duo 411	M0464
+Lava ARC 21	M0465
+Samsung chat 335 S3353	M0466
+Lava ARC 21	M0467
+Nokia X6 (8 GB Memory)	M0468
+Dell Aero	M0469
+HTC ChaCha	M0470
+HTC Desire	M0471
+HTC Desire	M0472
+HTC Desire	M0473
+HTC Desire	M0474
+HTC Explorer	M0475
+HTC Incredible S	M0476
+HTC Rhyme	M0477
+HTC Salsa	M0478
+HTC Sensation	M0479
+HTC Sensation	M0480
+HTC Sensation	M0481
+HTC Wildfire S	M0482
+MTS Livewire	M0483
+MTS Livewire	M0484
+Micromax Bling 2	M0485
+Micromax Q5c	M0486
+Micromax X1i+	M0487
+Micromax X11i+	M0488
+Micromax X1i Reloaded	M0489
+Micromax X2i	M0490
+Micromax X2i+	M0491
+Motorola Backflip	M0492
+Motorola Defy Plus	M0493
+Motorola Defy Plus	M0494
+Motorola Flipout	M0495
+Motorola Milestone	M0496
+Nokia 6300i	M0497
+Samsung Galaxy Note N-7000	M0498
+Samsung Galaxy Pop i559	M0499
+Samsung Galaxy S Plus I9001	M0500
+Samsung Google Nexus S	M0501
+Sony Ericsson Aino Classic	M0502
+Sony Ericsson Cedar	M0503
+Sony Ericsson Elm	M0504
+Sony Ericsson Hazel	M0505
+Sony Ericsson Live with Walkman - WT19i	M0506
+Sony Ericsson Live with Walkman - WT19i	M0507
+Sony Ericsson Mix Walkman WT13i	M0508
+Sony Ericsson Mix Walkman WT13i	M0509
+Sony Ericsson Spiro	M0510
+Sony Ericsson Vivaz	M0511
+Sony Ericsson Vivaz	M0512
+Sony Ericsson Xperia Arc S	M0513
+Sony Ericsson Xperia Play	M0514
+Sony Ericsson Xperia X10 Mini Pro	M0515
+Sony Ericsson Xperia X10 Mini Pro	M0516
+Sony Ericsson Zylo	M0517
+Sony Ericsson Fengli txt pro CK15i	M0518
+Spice Blueberry Express	M0519
+Spice Blueberry Mini	M0520
+Spice Mi-350n	M0521
+iBall Flipper	M0522
+iBall Gracia	M0523
+iBall Posh Platina	M0524
+iBall Aasaan	M0525
+iBall Thin	M0526
+iBall Floater	M0527
+Sony Ericsson Live with Walkman - WT19i	M0528
+Spice Mi-350n	M0529
+Sony Ericsson Xperia active ST17i	M0530
+Sony Ericsson Xperia active ST17i	M0531
+Karbonn K25	M0532
+Sony Ericsson Xperia X10 Mini Pro	M0533
+Sony Ericsson Xperia X10 Mini Pro	M0534
+HTC Wildfire S	M0535
+Nokia X6 (16 GB Memory)	M0536
+Samsung i320	M0537
+iBall Flipper	M0538
+Vox VES105	M0539
+Sony Ericsson Xperia neo V	M0540
+MTS Mtag 3.1	M0541
+Sony Ericsson Fengli txt pro CK15i	M0542
+Sony Ericsson Xperia neo V	M0543
+Micromax Modu T	M0544
+Samsung Galaxy A	M0545
+Sony Ericsson S710	M0546
+Sony Ericsson S710	M0547
+Karbonn K444i	M0548
+Maxx MX475g	M0549
+Motorola XT5 XT502	M0550
+Samsung i550	M0551
+Maxx MX128i	M0552
+Swiss Voice SV45	M0553
+Samsung Metro S3310i	M0554
+Sony Ericsson Xperia Mini ST15i	M0555
+Samsung i320	M0556
+iBall Glider Touch	M0557
+Samsung Google Nexus S	M0558
+Motorola Milestone 2	M0559
+Motorola Milestone 2	M0560
+Micromax Modu T	M0561
+Spice Mi5500	M0562
+iBall ANDi	M0563
+iBall Aasaan	M0564
+HTC Hero A6262	M0565
+Acer Ferrari Edition Liquid E	M0566
+Samsung Serene	M0567
+Motorola Tundra VA76r	M0568
+Samsung Serene	M0569
+LG Xenon	M0570
+Motorola Xoom	M0571
+Micromax X11i	M0572
+Motorola FIRE XT	M0573
+LG Xenon	M0574
+Samsung Serene	M0575
+Micromax X2i	M0576
+Motorola Atrix 2	M0577
+Motorola Milestone 2	M0578
+HTC Touch	M0579
+Maxx MX128i	M0580
+Motorola Milestone 2	M0581
+Motorola Milestone 2	M0582
+Videocon v1441	M0583
+Onida G720i	M0584
+Acer Ferrari Edition Liquid E	M0585
+Motorola Milestone 2	M0586
+Motorola Defy Plus	M0587
+iBall Vibe WiFi	M0588
+Swiss Voice SV25	M0589
+Vox VPS 303	M0590
+Samsung Guru Dual 35 E2152	M0591
+Intex vision IN 2020	M0592
+Acer Ferrari Edition Liquid E	M0593
+Acer Ferrari Edition Liquid E	M0594
+Intex Royale	M0595
+Lava Kkt 23c	M0596
+Onida G720i	M0597
+Vodafone Blue 555	M0598
+Lemon IT-515	M0599
+Vox VES105	M0600
+Lemon IQ 707	M0601
+Vox VGS 307	M0602
+Vox VGS 307	M0603
+Nokia C6-00	M0604
+Lemon Duo 405	M0605
+Vox VES 203BT	M0606
+Lava B5 Qwerty	M0607
+LG Optimus Net Dual Sim P698	M0608
+Lava B2 Qwerty	M0609
+Karbonn K 111	M0610
+Samsung Impact b	M0611

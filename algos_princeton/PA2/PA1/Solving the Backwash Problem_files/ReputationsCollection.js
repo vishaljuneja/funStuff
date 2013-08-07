@@ -1,0 +1,1 @@
+define(["underscore","backbone","pages/forum/app","pages/forum/models/UserModel","js/lib/backbone.api"],function(e,r,a,t,o){var i=r.Collection.extend({model:t,url:"forum/reputations",api:a.api});return e.extend(i.prototype,o),i});

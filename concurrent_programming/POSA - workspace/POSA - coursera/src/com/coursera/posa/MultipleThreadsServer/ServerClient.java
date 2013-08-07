@@ -1,0 +1,81 @@
+package com.coursera.posa.MultipleThreadsServer;
+
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+/**
+ * example usage:
+ * java ServerClient 127.0.0.1 5810 "echo this back"
+ */ 
+
+public class ServerClient {
+
+	private static final Integer THREAD_POOL = 100000;
+	private static Integer port;
+	private static String ip;
+	private static String message;
+	
+	private static Integer interrupted = 0;
+	
+	public static void main(String args[]){
+		ip = args[0];
+		port = Integer.parseInt(args[1]);
+		message = args[2];
+		ServerClient client = new ServerClient();
+		
+		ExecutorService executor = Executors.newFixedThreadPool(THREAD_POOL);
+		for(int i=0; i<THREAD_POOL; i++) {
+			ClientThread ct = client.new ClientThread();
+			ct.setName("Thread "+i);
+			executor.execute(ct);
+		}
+		executor.shutdown();
+		
+		while(!executor.isTerminated()){}
+		
+		System.out.println("Threads interrupted ..." + interrupted);
+	}
+	
+	private class ClientThread extends Thread {		
+		
+		
+		
+		public void run(){
+			while(true){
+				try {
+					System.out.println("Establishing connection on port " + port);
+					Socket client = new Socket(ip, port);
+
+					System.out.println("Connection established " + client.getRemoteSocketAddress());
+					//Thread.sleep(1000L);
+					OutputStream outToServer = client.getOutputStream();
+					DataOutputStream out =
+							new DataOutputStream(outToServer);
+
+					out.writeUTF(message);
+					System.getProperty("line.separator");
+					InputStream inFromServer = client.getInputStream();
+					DataInputStream in =
+							new DataInputStream(inFromServer);
+					System.out.println("In thread "+getName()+" Server says " + in.readUTF());
+					
+					client.close();
+					break;
+				} catch(IOException e) {
+					interrupted++;
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
+}
+

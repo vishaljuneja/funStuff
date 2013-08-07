@@ -1,0 +1,1 @@
+define(["backbone","jquery","underscore","pages/forum/views/EntryView"],function(e,t,n,i){var r=i.extend({});return r});

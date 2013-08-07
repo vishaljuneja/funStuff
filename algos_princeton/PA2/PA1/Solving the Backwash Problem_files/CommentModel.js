@@ -1,0 +1,1 @@
+define(["pages/forum/models/EntryModel"],function(e){var t=e.extend({textProp:"comment_text",entryType:"comment",url:function(){return"forum/posts/"+this.get("post_id")+"/comments"}});return t});

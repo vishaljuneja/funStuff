@@ -1,0 +1,1 @@
+define(["pages/forum/models/EntryModel"],function(e){return e.extend({defaults:{order:9999999999},textProp:"post_text",entryType:"post",url:function(){return"forum/threads/"+this.get("thread_id")+"/posts"}})});

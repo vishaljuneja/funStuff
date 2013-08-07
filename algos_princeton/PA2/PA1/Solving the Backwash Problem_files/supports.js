@@ -1,0 +1,1 @@
+define([],function(){var t={},e="supports-";return document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")&&(document.documentElement.className=e+"svg",t.svg=!0),window.XMLHttpRequest&&"withCredentials"in new window.XMLHttpRequest&&0>navigator.userAgent.indexOf("MSIE 10.0")&&(t.cors=!0),t});

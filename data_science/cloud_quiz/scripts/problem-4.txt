@@ -1,0 +1,13 @@
+register s3n://uw-cse-344-oregon.aws.amazon.com/myudfs.jar;
+
+raw = LOAD 's3n://uw-cse-344-oregon.aws.amazon.com/btc-2010-chunk-*' USING TextLoader as (line:chararray);
+
+ntriples = foreach raw generate FLATTEN(myudfs.RDFSplit3(line)) as (subject:chararray,predicate:chararray,object:chararray);
+
+subject_group = group ntriples by subject parallel 25;
+
+countbysubjects = foreach subject_group generate flatten($0), COUNT($1) as count parallel 25;
+
+countbycounts = foreach (group countbysubjects by count) generate flatten($0), COUNT($1) as bin parallel 25;
+
+store (order countbycounts by bin) into '/home/hadoop/output-4' using PigStorage();

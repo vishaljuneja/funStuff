@@ -1,0 +1,646 @@
+Infibeam Product Name			No Match
+Alcatel OT 813D	Alcatel OT 813D	Match
+Apple iPhone 3GS 8GB	Apple iPhone 3GS 8GB (Airtel lock)	Match
+BlackBerry 9330	BlackBerry 9330 (Tata Indicom)	Match
+BlackBerry 9800 Torch	BlackBerry Torch 9800	Match
+BlackBerry Bold 9790	BlackBerry Bold 9790	Match
+BlackBerry Bold Touch 9900	BlackBerry Bold 9900	Match
+BlackBerry Curve 8520	BlackBerry Curve 8520	Match
+BlackBerry Curve 9360	BlackBerry Curve 9360	Match
+BlackBerry Curve 9380	BlackBerry Curve 9380	Match
+BlackBerry Style 9670	BlackBerry 9670	Match
+BlackBerry Torch 9810	BlackBerry Torch 9810	Match
+BlackBerry Torch 9860	BlackBerry Torch 9860	Match
+Dell XCD28	Dell XCD28	Match
+Dell XCD35	Dell XCD35	Match
+HTC EVO 3D	HTC EVO 3D	Match
+HTC Legend A6363	HTC Legend A6363	Match
+Intex IN 007 Maxima	Intex IN 007 Maxima	Match
+Intex IN 1212 Nano Plus	Intex Nano IN 1212	Match
+Intex IN 2040E	Intex IN 2040E	Match
+Intex IN 2060	Intex IN 2060	Match
+Intex IN 2080	Intex IN 2080	Match
+Intex IN 5030	Intex IN 5030	Match
+Intex IN 8809 Projector	Intex IN 8809	Match
+Intex IN 8810 Projector	Intex V.Show Projector IN 8810	Match
+Intex Kool 4370	Intex Kool 4370	Match
+Karbonn K 111	Karbonn K 111	Match
+Karbonn K 505	Karbonn K 505	Match
+Karbonn K336	Karbonn K336	Match
+Karbonn K433	Karbonn K433	Match
+Karbonn K455	Karbonn K455	Match
+Karbonn K666	Karbonn K666	Match
+LG A120	LG A120	Match
+LG A165	LG A165	Match
+LG A230	LG A230	Match
+LG BL40 New Chocolate	LG Chocolate BL40	Match
+LG C105	LG C105	Match
+LG Cookie Duet C310	LG C310	Match
+LG Cookie Fresh GS290	LG Cookie Fresh GS290	Match
+LG GB110 Bullet	LG GB110	Match
+LG GB220	LG Buzz GB220	Match
+LG GS108	LG GS108	Match
+LG GS155	LG GS155	Match
+LG GU220	LG GU220	Match
+LG GU285	LG GU285	Match
+LG GW300	LG GW300	Match
+LG GX300	LG GX300	Match
+LG GX500	LG GX500	Match
+LG Optimus 2X P990	LG Optimus 2X P990	Match
+LG Optimus 3D P920	LG Optimus 3D P920	Match
+LG Optimus Black P970	LG Optimus Black P970	Match
+LG Optimus Hub E510	LG Optimus Hub E510	Match
+LG Optimus Me P350	LG Optimus Me P350	Match
+LG Optimus NET P690	LG Optimus NET P690	Match
+LG Optimus One P500	LG Optimus One P500	Match
+LG Optimus Pro C660	LG Optimus Pro C660	Match
+LG Optimus Sol E730	LG Optimus Sol E730	Match
+LG Optimus Sol E730	LG Optimus Sol E730	Match
+LG P520	LG P520	Match
+LG S310	LG S310	Match
+LG T300 Cookie Joy	LG T300	Match
+LG T515	LG T515	Match
+LG X330	LG X330	Match
+Lava A10	Lava A10	Match
+Lava A11 Dual Sim With Clamshell	Lava A11	Match
+Lava A16 MTV Phone	Lava A16	Match
+Lava B5 Qwerty	Lava B5 Qwerty	Match
+Lava B8 - Dual Sim	Lava B8	Match
+Lava KKT 30	Lava KKT 30	Match
+Lava M70	Lava M70	Match
+Lava M9	Lava M9	Match
+Lava S12	Lava S12	Match
+Lemon Duo 212	Lemon Duo 212	Match
+Lemon Duo 306	Lemon Duo 306	Match
+Lemon Duo 309	Lemon Duo 309	Match
+Lemon Duo 325	Lemon Duo 325	Match
+Lemon Duo 339 Super	Lemon Duo 339 Super	Match
+Lemon Duo 339	Lemon Duo 339 Super	Match
+Lemon Duo 349	Lemon 349	Match
+Lemon F101	Lemon Flip F101	Match
+Lemon W100	Lemon W100	Match
+Lemon iQ 505	Lemon 505	Match
+Maxx GC735	Maxx GC735	Match
+Maxx MQ601	Maxx MQ601	Match
+Maxx MSD7	Maxx MSD7	Match
+Maxx MT105	Maxx Zippy MT105	Match
+Maxx MX124	Maxx MX124	Match
+Maxx MX166	Maxx Yoyo MX166	Match
+Maxx MX192	Maxx MX192 -Tune	Match
+Maxx MX250	Maxx MX250	Match
+Maxx MX349	Maxx MX349	Match
+Maxx MX365	Maxx MX365	Match
+Maxx MX372	Maxx Tiny MX372	Match
+Maxx MX388	Maxx MX388	Match
+Maxx MX469	Maxx MX469	Match
+Micromax A70	Micromax A70	Match
+Micromax A85 Superfone Dual Core Android Smartphone	Micromax Superfone A85	Match
+Micromax Andro A60	Micromax Andro A60	Match
+Micromax G4 Gamolution	Micromax Gamolution G4	Match
+Micromax GC256	Micromax GC256	Match
+Micromax GC360	Micromax GC360	Match
+Micromax M2	Micromax M2	Match
+Micromax Q2	Micromax Q2	Match
+Micromax Q2+	Micromax Q2	Match
+Micromax Q3 Plus Ezpad	Micromax Q3	Match
+Micromax Q35	Micromax Q3	Match
+Micromax Q50	Micromax Q50	Match
+Micromax Q55 Bling - Dual Sim	Micromax Bling Q55	Match
+Micromax Q56	Micromax Q56	Match
+Micromax Q6	Micromax Q6	Match
+Micromax Q7	Micromax Q7	Match
+Micromax Q75	Micromax Q7	Match
+Micromax Q80	Micromax Q80	Match
+Micromax W900	Micromax W900	Match
+Micromax X100	Micromax X100	Match
+Micromax X111	Micromax X111	Match
+Micromax X117	Micromax X117	Match
+Micromax X200	Micromax X200	Match
+Micromax X210	Micromax X210	Match
+Micromax X222	Micromax X222	Match
+Micromax X228	Micromax X228	Match
+Micromax X229	Micromax X229	Match
+Micromax X230	Micromax X230	Match
+Micromax X231	Micromax X231	Match
+Micromax X235 (Universal Remote)	Micromax X235	Match
+Micromax X261	Micromax X261	Match
+Micromax X263	Micromax X263	Match
+Micromax X265	Micromax X265	Match
+Micromax X266	Micromax X266	Match
+Micromax X270	Micromax X270	Match
+Micromax X285	Micromax X285	Match
+Micromax X288	Micromax X288	Match
+Micromax X290	Micromax X290	Match
+Micromax X330	Micromax X330	Match
+Micromax X360	Micromax X360	Match
+Micromax X365	Micromax X365	Match
+Micromax X395	Micromax X395	Match
+Micromax X40	Micromax X40	Match
+Micromax X410	Micromax X410	Match
+Micromax X450	Micromax Van Gogh X450	Match
+Micromax X505	Micromax Psych X505	Match
+Micromax X55 Blade	Micromax Blade X55	Match
+Micromax X560 Qube	Micromax X560	Match
+Micromax X600	Micromax X600	Match
+Micromax X78	Micromax X78	Match
+Motorola Brea EX119 - Dual Sim	Motorola EX119	Match
+Motorola EX115	Motorola Starling EX115	Match
+Motorola EX128	Motorola Kingfisher EX128	Match
+Motorola Erin EX109	Motorola EX109	Match
+Motorola Moto WX260	Motorola WX260	Match
+Motorola Moto WX290	Motorola WX290	Match
+Motorola Quartz EX212	Motorola EX212	Match
+Motorola RAZR XT910	Motorola RAZR XT910	Match
+Motorola WX181	Motorola WX181	Match
+Nokia 100	Nokia 100	Match
+Nokia 101	Nokia 101	Match
+Nokia 1280	Nokia 1280	Match
+Nokia 1508	Nokia 1508	Match
+Nokia 1616	Nokia 1616	Match
+Nokia 2700 Classic	Nokia 2700 Classic	Match
+Nokia 2730 Classic	Nokia 2730 Classic	Match
+Nokia 500	Nokia 500	Match
+Nokia 5233	Nokia 5233	Match
+Nokia 700	Nokia 700	Match
+Nokia 701	Nokia 701	Match
+Nokia 7020 ( 1 Year Manufacturer Warranty )	Nokia 7020	Match
+Nokia 7230	Nokia 7230	Match
+Nokia Asha 200	Nokia Asha 200	Match
+Nokia Asha 300	Nokia Asha 300	Match
+Nokia C1-01	Nokia C1-01	Match
+Nokia C1-02	Nokia C1-02	Match
+Nokia C2-00	Nokia C2-00	Match
+Nokia C2-01	Nokia C2-01	Match
+Nokia C2-02	Nokia C2-02 Touch and Type	Match
+Nokia C2-03	Nokia C2-03 Touch and Type	Match
+Nokia C2-06	Nokia C2-06	Match
+Nokia C5-03	Nokia C5-03	Match
+Nokia C5-05	Nokia C5-05	Match
+Nokia C6-01	Nokia C6-01	Match
+Nokia E5	Nokia E5	Match
+Nokia E6	Nokia E6	Match
+Nokia E63	Nokia E6	Match
+Nokia E7	Nokia E7	Match
+Nokia Lumia 710	Nokia Lumia 710	Match
+Nokia Lumia 800	Nokia Lumia 800	Match
+Nokia X1-01	Nokia X1-01	Match
+Nokia X2	Nokia X2	Match
+Nokia X2-01	Nokia X2	Match
+Nokia X2-02	Nokia X2	Match
+Nokia X3-02 Touch and Type	Nokia X3-02 Touch and Type	Match
+Onida F099	Onida F099	Match
+Onida F970	Onida F970	Match
+Onida G145	Onida G145	Match
+Onida G590F	Onida G590F	Match
+Onida G720	Onida G720	Match
+Onida G725	Onida G725	Match
+Onida KYT005	Onida KYT005	Match
+Onida KYT007	Onida KYT007	Match
+Samsung B5722	Samsung Duos B5722	Match
+Samsung C3010	Samsung C3010	Match
+Samsung C3011	Samsung C3011	Match
+Samsung C3312 Duos	Samsung Champ Deluxe Duos C3312	Match
+Samsung C3520	Samsung Metro C3520	Match
+Samsung C3752	Samsung C3752	Match
+Samsung C5212	Samsung C5212	Match
+Samsung C6112	Samsung C6112	Match
+Samsung Champ 2 C3330	Samsung Champ 2 C3330	Match
+Samsung Champ S3770	Samsung S3770	Match
+Samsung Champ-Mega Cam C3303I	Samsung Champ-Mega Cam C3303I	Match
+Samsung Corby Plus B3410	Samsung Corby Plus B3410	Match
+Samsung Corby S3653	Samsung Corby S3653	Match
+Samsung Corby TXT B3210	Samsung Corby TXT B3210	Match
+Samsung E1100 Guru	Samsung Guru E1100	Match
+Samsung E2152	Samsung Guru E2152	Match
+Samsung Galaxy 3 I5801	Samsung Galaxy 3 I5801	Match
+Samsung Galaxy 5 I5503	Samsung Galaxy 5 I5503	Match
+Samsung Galaxy Fit S5670	Samsung Galaxy Fit S5670	Match
+Samsung Galaxy Pop S5570	Samsung Galaxy Pop S5570	Match
+Samsung Galaxy Pro B7510	Samsung Galaxy Pro B7510	Match
+Samsung Galaxy R I9103	Samsung Galaxy R I9103	Match
+Samsung Galaxy S LCD I9003	Samsung Galaxy S LCD I9003	Match
+Samsung Galaxy Tab P1000 + Leather cover	Samsung Galaxy Tab P1000	Match
+Samsung Galaxy Y S5360	Samsung Galaxy Y S5360	Match
+Samsung Guru B559	Samsung B559	Match
+Samsung Guru Muzik B519	Samsung Guru Muzik B519	Match
+Samsung Hero E2230	Samsung Hero E2230	Match
+Samsung Hero E2232	Samsung Hero E2232	Match
+Samsung Hero E3210	Samsung E3210	Match
+Samsung Hero E3213	Samsung Hero E3213	Match
+Samsung MPOWER TXT M369	Samsung MPOWER TXT M369	Match
+Samsung Metro C3560	Samsung Metro C3560	Match
+Samsung Metro DUOS C3322	Samsung Metro DUOS C3322	Match
+Samsung Omnia W I8350	Samsung Omnia W I8350	Match
+Samsung S3600	Samsung Metro S3600	Match
+Samsung S5200	Samsung Metro S5200	Match
+Samsung S5610	Samsung Primo S5610	Match
+Samsung S5620 Monte	Samsung Monte S5620	Match
+Samsung Star Duos B7722	Samsung Star Duos B7722	Match
+Samsung Star II S5263	Samsung Star II S5263	Match
+Samsung Wave II S8530	Samsung Wave II S8530	Match
+Samsung Wave III S8600	Samsung Wave III S8600	Match
+Samsung Wave M S7250	Samsung Wave M S7250	Match
+Samsung Wave Y S5380	Samsung Wave Y S5380	Match
+Sony Ericsson Xperia X10 mini Pro	Sony Ericsson Xperia X10	Match
+Sony Ericsson Xperia X10 mini	Sony Ericsson Xperia X10	Match
+Sony Ericsson Xperia X8	Sony Ericsson Xperia X8	Match
+Spice D-90	Spice D-90	Match
+Spice G-6550	Spice G-6550	Match
+Spice M-4250	Spice M-4250	Match
+Spice M-5056	Spice M-5056	Match
+Spice M-5100	Spice M-5100	Match
+Spice M-5180	Spice M-5180	Match
+Spice M-5262	Spice M-5262	Match
+Spice M-5350	Spice M-5350	Match
+Spice M-5445	Spice M-5445	Match
+Spice M-5454	Spice M-5454	Match
+Spice M-5570	Spice M-5570	Match
+Spice M-5700 Flo	Spice Flo M-5700	Match
+Spice M-6 Sports	Spice Sports M-6	Match
+Spice M-6200	Spice M-6200	Match
+Spice M-6350	Spice M-6350	Match
+Spice M-6400	Spice M-6400	Match
+Spice M-6450 Metal	Spice M-6450	Match
+Spice M-6460	Spice M-6460	Match
+Spice M-6900 Knight	Spice M-6900	Match
+Spice MI-280	Spice MI-280	Match
+Spice Mi-270	Spice Mi-270	Match
+Spice Mi-310	Spice Mi-310	Match
+Spice Popkorn M-9000 Projector	Spice Popkorn M-9000	Match
+Videocon Qruz3 V1435	Videocon Qruz3 V1435	Match
+Videocon V1307 (Black)	Videocon V1307	Match
+Videocon V1402	Videocon V1402	Match
+Videocon V1410	Videocon V1410	Match
+Videocon V1412	Videocon V1412	Match
+Videocon V1414 (Black)	Videocon V1414	Match
+Videocon V1436	Videocon V1436	Match
+Videocon V1440	Videocon V1440	Match
+Videocon V1448 (Black)	Videocon V1448	Match
+Videocon V1450	Videocon V1450	Match
+Videocon V1456 (Black)	Videocon V1456	Match
+Videocon V1476	Videocon V1476	Match
+Videocon V1530	Videocon V1530	Match
+Videocon V1531 (Black)	Videocon V1531	Match
+Videocon V1533 (Black)	Videocon V1533	Match
+Videocon V1540 (Black)	Videocon V1540	Match
+Videocon V1606 (Black)	Videocon V1606	Match
+Videocon V1611	Videocon V1611	Match
+Videocon V1688	Videocon V1688	Match
+Videocon V1705	Videocon V1705	Match
+Videocon V1755	Videocon V1755	Match
+Videocon V1760	Videocon V1760	Match
+Videocon V202	Videocon V202	Match
+Videocon V7400	Videocon V7400	Match
+Vodafone 858 Smart U8160	Vodafone 858 Smart U8160	Match
+Wynncom Y10	Wynncom Y10	Match
+Wynncom Y30	Wynncom Y30	Match
+Wynncom Y50	Wynncom Y50	Match
+Zen X410	Zen X410	Match
+iBall Aura V36	iBall Aura V36	Match
+Intex IN 4470N+	Intex IN 4470N	Match
+iBall Aspire QE-45	iBall Flipper	Match
+Micromax Q55 Bling-Black (Limited IIFA Edition)	Micromax Bling Q55	Match
+Alcatel OT 517D			No Match
+Lemon Duo 216	Lemon Duo 216+	Match
+Samsung Mpower Muzik F219	Samsung Mpower Muzic F219	Match
+iBall Shann S306	iBall Flipper	Match
+Samsung Corby Pro B5310	Samsung CorbyPRO B5310	Match
+Spice G6500	Spice Blueberry Express	Match
+Spice M5370	Spice Blueberry Express	Match
+Spice M6700	Spice Blueberry Express	Match
+Spice QT44 ( 1 Year Manufacturer Warranty )	Spice Blueberry Express	Match
+Spice QT52	Spice Blueberry Express	Match
+Spice QT56	Spice Blueberry Express	Match
+LG Optimus P698 Net Dual(Titanium)	LG Optimus Net Dual Sim P698	Match
+Lava KKT 34 Plus	Lava KKT 34+	Match
+Karbonn K210			No Match
+Karbonn K220			No Match
+Karbonn K325			No Match
+Karbonn K334			No Match
+Karbonn K570			No Match
+Samsung-Star S5233	Samsung Star S5233	Match
+Onida F930-3G	Onida F930 3G	Match
+Onida G721-3G	Onida G721 3G	Match
+LG- GM200	LG Brio GM200	Match
+Samsung Chat 527	Samsung Ch@t 527	Match
+Lava ARC21			No Match
+Lava KKT28			No Match
+Lava KKT35			No Match
+Lava KKT39			No Match
+Lava KKT40			No Match
+Lava KKT50			No Match
+Spice C5060	Spice Blueberry Express	Match
+Spice M4262	Spice Blueberry Express	Match
+Spice M5115	Spice Blueberry Express	Match
+Samsung Mpower TV S239	Samsung mPower TV S239	Match
+iBall Shaan S09	iBall Flipper	Match
+Karbonn A1			No Match
+Karbonn K1010			No Match
+Karbonn K1515			No Match
+Karbonn K1616			No Match
+Karbonn K9			No Match
+Apple iPhone 3GS-8GB Unlock	Apple iPhone 3GS 8GB (Airtel lock)	Match
+Alcatel OT 808			No Match
+Karbonn KC555			No Match
+Lava M20			No Match
+LG GD580 (Cookie Flip)	LG Lollipop GD580	Match
+Samsung C3200 Monte Bar	Samsung Metro C3200	Match
+Spice AURA (QT-64)	Spice Blueberry Aura QT-64	Match
+VOX-VPS-309	Vox VPS 309	Match
+VOX- VES-105			No Match
+Sony-Ericsson W8 Walkman Phone	Sony Ericsson W8	Match
+Sony-Ericsson W8 Walkman Phone	Sony Ericsson W8	Match
+Intex IN 4570 Xplode	Intex Royale	Match
+Fujezone A200 Android Mobile			No Match
+Samsung Guru E1081T	Samsung Google Nexus S	Match
+Samsung C3303K	Samsung Google Nexus S	Match
+Samsung Metro 5200	Samsung Google Nexus S	Match
+Onida Full Touch Mobile F101			No Match
+Intex IN 4070 Shine	Intex Royale	Match
+VOX- VGS-507	Vox VGS 507	Match
+VOX- VGS-509	Vox VGS 509	Match
+VOX- VGS-601	Vox VGS 601	Match
+VOX- VGS-603	Vox VGS 603	Match
+VOX- VPS-303	Vox VPS 303	Match
+VOX- VPS-305	Vox VPS 305	Match
+IBall Planet 3G (Special Choco)	iBall Flipper	Match
+Karbonn K 550i			No Match
+Samsung E1160	Samsung Google Nexus S	Match
+Samsung E1225	Samsung Google Nexus S	Match
+Samsung Galaxy Y Color Plus S5360	Samsung Galaxy Y S5360	Match
+Samsung I9000 Galaxy S	Samsung Google Nexus S	Match
+Samsung S3310	Samsung Google Nexus S	Match
+Videocon V1635 (Black)			No Match
+Onida KYT003			No Match
+LG GT350i	LG Xenon	Match
+Samsung E1175	Samsung Google Nexus S	Match
+Samsung E1232 Hero Music (Black)	Samsung Google Nexus S	Match
+Alcatel OT 806D			No Match
+Lemon DUO 409			No Match
+BlackBerry 9300 Curve			No Match
+BlackBerry Bold 3 9780	BlackBerry Bold 9780	Match
+Karbonn K406 Boom Box			No Match
+LG A155	LG Xenon	Match
+Onida F090 Sparsh			No Match
+Maxx MX245			No Match
+Samsung E1172	Samsung Google Nexus S	Match
+Videocon V1293			No Match
+Videocon V1545 (White)			No Match
+Lava KKT22 Plus			No Match
+Lava ARC01			No Match
+Maxx MX148			No Match
+Maxx MX434			No Match
+Blackberry 9300 Curve			No Match
+Maxx MT250			No Match
+Alcatel OT 710D			No Match
+Onida V130			No Match
+Micromax A 75	Micromax Modu T	Match
+Onida G515			No Match
+Spice QT-57	Spice Blueberry Express	Match
+Lava KKT 24 Plus			No Match
+Lava KKT 24			No Match
+Karbonn K450			No Match
+Karbonn K486			No Match
+Onida G480			No Match
+Micromax X370	Micromax Modu T	Match
+Onida F810			No Match
+Samsung B539	Samsung Google Nexus S	Match
+Samsung Duos W169	Samsung Google Nexus S	Match
+Samsung W259	Samsung Google Nexus S	Match
+Onida G695			No Match
+Samsung MpowerTxt M369	Samsung MPOWER TXT M369	Match
+Orion E101			No Match
+LG 6400	LG Xenon	Match
+Samsung Wave 575 S5753 + 2GB Memory Card Free	Samsung Wave 575 S5753	Match
+Intex IN 4500 Thunder	Intex Royale	Match
+Spice M-4580n	Spice M-4580N	Match
+Samsung E2652 Champ Duos	Samsung Google Nexus S	Match
+Samsung E1252	Samsung Google Nexus S	Match
+Samsung S3850 Corby II	Samsung Corby II S3850	Match
+Samsung Corby Colours S3653IK	Samsung Google Nexus S	Match
+Alcatel OT 520D			No Match
+Intex IN 4666 Noise Proof	Intex Royale	Match
+VOX-VGS-701			No Match
+Lemon Duo 321			No Match
+Samsung Galaxy S Plus GT-I9001	Samsung Galaxy S Plus I9001	Match
+Samsung Chat 335 S3353 + 2GB Memory Card Free	Samsung chat 335 S3353	Match
+Spice MI 350	Spice Blueberry Express	Match
+Samsung Wave S7233	Samsung Google Nexus S	Match
+Zen Z80			No Match
+VOX- VES-107			No Match
+VOX- VES-109			No Match
+Lava ARC04			No Match
+Lava ARC05			No Match
+Maxx MQ811			No Match
+Maxx MT255			No Match
+Maxx MT315			No Match
+VOX- VGS-501			No Match
+VOX- VGS-503			No Match
+VOX- VGS-505			No Match
+VOX- VGS-605			No Match
+VOX- VGS-703			No Match
+Maxx MA440			No Match
+Lemon iQ 303			No Match
+Lemon DUO 419			No Match
+Samsung Galxy SII I9100G	Samsung Google Nexus S	Match
+LG 6160	LG Xenon	Match
+Micromax Q5	Micromax Modu T	Match
+Nokia N8			No Match
+Apple iPhone 4S-16GB			No Match
+Apple iPhone 4S-32GB	Apple iPad 32GB (Wi-Fi only)	Match
+Apple iPhone 4 32 GB (Officially Unlocked)			No Match
+Maxx MS830			No Match
+Onida S555			No Match
+Samsung Monte Slider GT-E2550	Samsung Metro E2550	Match
+VOX- VGS-705			No Match
+Nokia C3 Touch and Type			No Match
+Nokia C3			No Match
+Nokia C5			No Match
+Nokia C6			No Match
+Nokia X7			No Match
+Samsung E1085 GSM	Samsung Google Nexus S	Match
+VOX- VES-203- With Free Bluetooth			No Match
+LG T310i + Free 2 GB Memory Card	LG Xenon	Match
+Apple iPhone 4 16 GB (Officially Unlocked)			No Match
+Lemon iT 414			No Match
+Lava ARC 02 Plus			No Match
+Samsung C3530 Metro 3530	Samsung Google Nexus S	Match
+Lava ARC03 Plus			No Match
+Lava B6 + Free 2 GB Memory Card			No Match
+Dell Aero + Free 2 GB Card	Dell Aero	Match
+HTC ChaCha	HTC ChaCha	Match
+HTC Desire HD	HTC ChaCha	Match
+HTC Desire S	HTC ChaCha	Match
+HTC Desire Z	HTC ChaCha	Match
+HTC Desire	HTC ChaCha	Match
+HTC Explorer 3.2 Inch Touch Screen (Royal Black)	HTC ChaCha	Match
+HTC Incredible S + Free 8GB Memory Card	HTC ChaCha	Match
+HTC Rhyme	HTC ChaCha	Match
+HTC Salsa C510e + Free 2GB MicroSD Card	HTC ChaCha	Match
+HTC Sensation XE with Beats Audio	HTC ChaCha	Match
+HTC Sensation XL	HTC ChaCha	Match
+HTC Sensation	HTC ChaCha	Match
+HTC Wildfire S + Free 2 GB Card	HTC ChaCha	Match
+MTS Livewire SP 100 with MTS Locked	MTS Livewire	Match
+MTS Livewire ZTE N600	MTS Livewire	Match
+Micromax Bling 2	Micromax Bling 2	Match
+Micromax Q5c	Micromax Q5c	Match
+Micromax X11i	Micromax X11i+	Match
+Micromax X11i+	Micromax X11i+	Match
+Micromax X1i	Micromax X1i+	Match
+Micromax X2i	Micromax X2i	Match
+Micromax X2i+	Micromax X2i	Match
+Motorola Backflip	Motorola Backflip	Match
+Motorola Defy Plus	Motorola Backflip	Match
+Motorola Defy	Motorola Backflip	Match
+Motorola Flipout MOTOBLUR (With 2 GB Memory Card)	Motorola Backflip	Match
+Motorola Milestone Tablet Xt720	Motorola Backflip	Match
+Nokia 6303i classic			No Match
+Samsung Galaxy Note	Samsung Google Nexus S	Match
+Samsung Galaxy Pop i559	Samsung Galaxy Pop i559	Match
+Samsung Galaxy S Plus	Samsung Google Nexus S	Match
+Samsung Nexus S	Samsung Google Nexus S	Match
+Sony Ericsson Aino Classic Touchscreen Mobile	Sony Ericsson Aino Classic	Match
+Sony Ericsson Cedar	Sony Ericsson Aino Classic	Match
+Sony Ericsson Elm J10i2	Sony Ericsson Aino Classic	Match
+Sony Ericsson Hazel	Sony Ericsson Aino Classic	Match
+Sony Ericsson Live Walkman	Sony Ericsson Aino Classic	Match
+Sony Ericsson Live Walkman	Sony Ericsson Aino Classic	Match
+Sony Ericsson Mix Walkman WT13i	Sony Ericsson Aino Classic	Match
+Sony Ericsson Mix Walkman	Sony Ericsson Aino Classic	Match
+Sony Ericsson Spiro	Sony Ericsson Aino Classic	Match
+Sony Ericsson U5i Vivaz	Sony Ericsson Aino Classic	Match
+Sony Ericsson Vivaz pro	Sony Ericsson Aino Classic	Match
+Sony Ericsson Xperia Arc	Sony Ericsson Aino Classic	Match
+Sony Ericsson Xperia Play	Sony Ericsson Aino Classic	Match
+Sony Ericsson Xperia Pro	Sony Ericsson Aino Classic	Match
+Sony Ericsson Xperia Pro	Sony Ericsson Aino Classic	Match
+Sony Ericsson Zylo	Sony Ericsson Aino Classic	Match
+Sony Ericsson txt	Sony Ericsson Aino Classic	Match
+Spice Blueberry Express	Spice Blueberry Express	Match
+Spice Blueberry Mini	Spice Blueberry Express	Match
+Spice Mi-350n	Spice Blueberry Express	Match
+iBall Flip Flipper	iBall Flipper	Match
+iBall Gracia	iBall Flipper	Match
+iBall Posh Platina	iBall Flipper	Match
+iBall Senior Aasaan	iBall Flipper	Match
+iBall Sleec Thin	iBall Flipper	Match
+iBall Water Proof Floater	iBall Flipper	Match
+Sony Ericsson Xperia Ray ST 18i	Sony Ericsson Aino Classic	Match
+Spice M-5500 TOUCH and TYPE Mobile	Spice Blueberry Express	Match
+Sony Ericsson Xperia Active	Sony Ericsson Aino Classic	Match
+Sony Ericsson Xperia Active	Sony Ericsson Aino Classic	Match
+Karbonn K25i	Karbonn K25	Match
+Sony-Ericsson Xperia Mini Pro	Sony Ericsson Aino Classic	Match
+Sony-Ericsson Xperia Mini Pro	Sony Ericsson Aino Classic	Match
+HTC WildFire	HTC ChaCha	Match
+Micromax X226 + 1 GB Memory Card	Micromax Modu T	Match
+Samsung C3222 Chat 322	Samsung Google Nexus S	Match
+iBall Flip Glider	iBall Flipper	Match
+VOX- VPS-401- With Free Bluetooth			No Match
+Sony Ericsson Xperia Neo V	Sony Ericsson Aino Classic	Match
+MTS MTag 3.1 SP-101 + Free Call Mate Bluetooth & Screen Guard	MTS Livewire	Match
+Sony Ericsson Txt pro	Sony Ericsson Aino Classic	Match
+Sony Ericsson Xperia Neo	Sony Ericsson Aino Classic	Match
+Micromax-Q66	Micromax Modu T	Match
+Samsung Galaxy Ace S5830 + 2 GB Memory Card Free	Samsung Google Nexus S	Match
+Sony Ericsson Xperia ARC S	Sony Ericsson Aino Classic	Match
+Sony Ericsson Xperia ARC S	Sony Ericsson Aino Classic	Match
+Karbonn K446 + 2GB Memory Card Free	Karbonn K446	Match
+Maxx MX463 + 2GB Memory Card Free			No Match
+Motorola Zeppelin Lite Xt5 Xt502	Motorola Backflip	Match
+Samsung Corby POP C3510	Samsung Google Nexus S	Match
+Maxx MX317 + Free 2 GB Card			No Match
+Swiss Sv45 Nice n Easy	Swiss Voice SV45	Match
+Samsung S5333 + 2GB Memory Card Free	Samsung Google Nexus S	Match
+Sony-Ericsson Xperia Mini ST15i + 2 GB Card	Sony Ericsson Aino Classic	Match
+Samsung Chat 222	Samsung Google Nexus S	Match
+iBall IPS-261 Price Touch and Type Mobile Phone	iBall Flipper	Match
+Samsung Star-II-Duos-C6712	Samsung Google Nexus S	Match
+Motorola Fire + Free 2 GB Card	Motorola Backflip	Match
+Motorola Fire XT + Free 2 GB Card	Motorola Backflip	Match
+Micromax MODU T	Micromax Modu T	Match
+Spice S7000 GSM	Spice Blueberry Express	Match
+iBall Andi	iBall Flipper	Match
+iBall Long-B261 Shaan	iBall Flipper	Match
+HTC-Radar	HTC ChaCha	Match
+Acer Liquid mini E310 + Free 2 GB Card	Acer Ferrari Edition Liquid E	Match
+Samsung Hero-E2232 with Free Callmate emergency charger	Samsung Hero E2232	Match
+Motorola-Charm-MB502	Motorola Backflip	Match
+Samsung NX2 F699 + 1 GB Memory Card Free	Samsung Google Nexus S	Match
+LG T325 + Free 2 GB Memory Card	LG Xenon	Match
+Motorola Droid Razer	Motorola Backflip	Match
+Micromax Q1-Plus with Camera	Micromax Modu T	Match
+Motorola QUENCH XT3	Motorola Backflip	Match
+LG LG235 + Inbuilt Photon	LG Xenon	Match
+Samsung Wave525-S5253	Samsung Google Nexus S	Match
+Micromax X550 QUBE	Micromax Modu T	Match
+Acer beTouch E130 + 2 GB Memory Card Free	Acer Ferrari Edition Liquid E	Match
+Lemon Duo 402 + Free 2 GB Memory Card			No Match
+Swiss Sv75 One Touch + Free 2 GB Card			No Match
+Maxx MTP9			No Match
+Lava C30 + Free 2 GB Memory Card			No Match
+Lava M30 + Free 2 GB Memory Card			No Match
+Videocon V1608 + Free 2 GB Card			No Match
+Onida I-9 Android			No Match
+Acer beTouch-E210	Acer Ferrari Edition Liquid E	Match
+Swiss Sv65 Easy Messaging + Free 2 GB Card			No Match
+VOX V1 Plus + Free Bluetooth & MP3			No Match
+"Black Elemente 7 Inch 708 - 8GB 3G, Wifi, GPS Tablet"			No Match
+Swiss Sv25 Talk n Talk	Swiss Voice SV25	Match
+VOX Multimedia Phone with camera & Bluetooth + Bluetooth + Mp3 Player			No Match
+Wespro Zing Dual SIM Dual Battery Mobile -X5000i			No Match
+Fujezone VISION			No Match
+Fly E 140			No Match
+Fly E 146			No Match
+Intex IN 50 CDMA	Intex Royale	Match
+Lava C51			No Match
+Onida S333			No Match
+Vodafone Blue-VF555			No Match
+Lemon DUO IT 828			No Match
+Vox V1			No Match
+Lemon iQ 707	Lemon IQ 707	Match
+VOX 307 Smart Phone + Free VOX V9 Mobile	Vox VGS 307	Match
+VOX- VGS-701a			No Match
+Fujezone C6 Android Mobile			No Match
+Fly B 405			No Match
+VOX- VPS-307- With Free 2GB Card	Vox VGS 307	Match
+Fly B450 Qwerty Mobile			No Match
+Wespro Zing Dual SIM Qwerty Mobile Phone-Q800			No Match
+Wespro Dual SIM Qwerty Mobile Phone-Q900			No Match
+Fly MV 111			No Match
+Fly B 470			No Match
+Accord A27			No Match
+Airfone AF-110			No Match
+Fly B410 DS			No Match
+Fly DS 114A			No Match
+Fly DS 157			No Match
+Fly DS 181			No Match
+Fly GC 167			No Match
+Fly GC 222			No Match
+Fly MC 125			No Match
+Fly MC 170			No Match
+Fly MV 115			No Match
+Fly MV 120			No Match
+Fly MV 124			No Match
+Fly MV 130			No Match
+Fly MV 135			No Match
+Fujezone AS E18+			No Match
+Infibeam I5000			No Match
+Infibeam I666			No Match
+Olive Pad VT100			No Match
+Olive V-G1100			No Match
+Olive V-G2300			No Match
+Olive V-G3000			No Match
+Olive V-G800			No Match
+Olive V-G8000			No Match
+Olive V-GC800			No Match
+Orion 905			No Match
+Orion 907			No Match
+Orion 932			No Match
+Orion E201			No Match
+Orion E909			No Match
+Orion TV203			No Match
+Wespro WM1503			No Match
+Wespro WM2107			No Match
+Wespro WM3708i			No Match

@@ -1,0 +1,9 @@
+﻿peer 3 → Code is well-structured and design makes sense: The exceptions InterruptedException | BrokenBarrierException e do stop the execution of the whole thread which is bad Concurrency controls are used correctly: Your program uses way to much resources (busy-waiting). You should not do ping.isAlive() but ping.join() because then you are not wasting resources with the empty {} in the wile loop Also the if(flag.intValue() == 1) in the while loop wastes resources because both threads loops are running all the time only doing sometimes some work -> if you use any of the proposed mechanisms your threads are not burning CPU resources while waiting The cyclicbarrier is useless here. The code does also work without it and its purpose is to wait for example until other threads finished their calculations (wait for dependencies!). Code demonstrates the appropriate level of readability for others to understand the intent and execution of the program: should have some comments as your use of concurrency mechanisms is quite strange
+
+
+peer 2 → Code is a bit messy (Philosopher has no reason to be private class, unlock should always be done in a finally block, getting the number by parsing the thread name is quite odd..)
+peer 4 → Sleep results in longer delays esp. when you are encouraging Philosophers to 'eat' in your comments :-)
+
+
+peer 1 → Wrapper Facade is not supposed to hide the details of the Reactor but the details about socket handling. Could not make the server to answer to more that one message from the same connection. (Did not work with any of the provided clients on the forum, but only with the client provided with the server, but this client only sends one message.)
+peer 2 → I don't see any demultiplexing in the reactor pattern, instead I see multiple threads being spawns. In Java context, expected to set use of selector and selectablechannel objects.

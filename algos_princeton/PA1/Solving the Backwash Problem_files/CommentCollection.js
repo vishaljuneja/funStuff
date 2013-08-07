@@ -1,0 +1,1 @@
+define(["backbone","pages/forum/models/CommentModel"],function(e,t){var n=e.Collection.extend({model:t});return n});

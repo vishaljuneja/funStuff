@@ -1,0 +1,32 @@
+Alcatel OT 813D	M0001
+Apple iPhone 3GS 8GB (Airtel lock)	M0002
+BlackBerry 9330 (Tata Indicom)	M0003
+BlackBerry Torch 9800	M0004
+BlackBerry Bold 9790	M0005
+BlackBerry Bold 9900	M0006
+BlackBerry Curve 8520	M0007
+BlackBerry Curve 9360	M0008
+BlackBerry Curve 9380	M0009
+BlackBerry 9670	M0010
+BlackBerry Torch 9810	M0011
+BlackBerry Torch 9860	M0012
+Dell XCD28	M0013
+Dell XCD35	M0014
+HTC EVO 3D	M0015
+HTC Legend A6363	M0016
+Intex IN 007 Maxima	M0017
+Intex Nano IN 1212	M0018
+Intex IN 2040E	M0019
+Intex IN 2060	M0020
+Intex IN 2080	M0021
+Intex IN 5030	M0022
+Intex IN 8809	M0023
+Intex V.Show Projector IN 8810	M0024
+Intex Kool 4370	M0025
+Karbonn K 111	M0026
+Karbonn K 505	M0027
+Karbonn K336	M0028
+Karbonn K433	M0029
+Karbonn K455	M0030
+Karbonn K666	M0031
+LG A120	M0032

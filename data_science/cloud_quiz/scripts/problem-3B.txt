@@ -1,0 +1,13 @@
+register s3n://uw-cse-344-oregon.aws.amazon.com/myudfs.jar;
+
+raw = LOAD 's3n://uw-cse-344-oregon.aws.amazon.com/btc-2010-chunk-000' USING TextLoader as (line:chararray); 
+
+ntriples = foreach raw generate FLATTEN(myudfs.RDFSplit3(line)) as (subject:chararray,predicate:chararray,object:chararray);
+
+filtered1 = filter ntriples by subject matches '.*rdfabout\\.com.*';
+
+filtered2 = foreach filtered1 generate subject as subject2, predicate as predicate2, object as object2;
+
+j = join filtered1 by object, filtered2 by subject2;
+
+store (distinct j) into '/home/hadoop/output-3B' using PigStorage();

@@ -1,0 +1,144 @@
+package com.coursera.posa.diningphilosophers;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+public class DinnerTable {
+
+	private static final Integer NO_OF_PHILOSOPHERS = 5;
+	private static final Integer NO_OF_TIMES_EAT = 5;
+	
+	private final Lock lock = new ReentrantLock();
+	
+	private List<Condition> chopsticks;
+	private int[] available;
+	
+	public DinnerTable() {
+		chopsticks = new ArrayList<Condition>();
+		available = new int[NO_OF_PHILOSOPHERS];
+		for(int i=1; i<=NO_OF_PHILOSOPHERS; i++){
+			chopsticks.add(lock.newCondition());
+			available[i-1] = 1; // all chopsticks are available
+		}
+	}
+	
+	private void randomDelay(){
+		if(Math.random()>0.25){  // 1/4 chance that there will be a random delay
+			try {
+				Thread.sleep((long) (Math.random()*1000L));
+			} catch (InterruptedException e1) {
+				e1.printStackTrace();
+			}
+		}
+	}
+	
+	
+	public void eat(Philosopher philosopher) {
+		getLeftChopStick(philosopher);
+		getRightChopStick(philosopher);
+		
+		System.out.println(philosopher.getName()+" eats.");		
+	
+		releaseRightChopStick(philosopher);
+		releaseLeftChopStick(philosopher);
+	}
+	
+	
+	private void releaseLeftChopStick(Philosopher philosopher) {
+		lock.lock();
+		int number = Integer.parseInt(philosopher.getName().split(" ")[1]);
+		number = number % NO_OF_PHILOSOPHERS + 1;
+		
+		available[number-1] = 1;
+		chopsticks.get(number-1).signal();
+		System.out.println(philosopher.getName()+" puts down left chopstick.");
+		lock.unlock();	
+	}
+
+	private void releaseRightChopStick(Philosopher philosopher) {
+		lock.lock();
+		int number = Integer.parseInt(philosopher.getName().split(" ")[1]);
+		
+		available[number-1] = 1;
+		chopsticks.get(number-1).signal();
+		System.out.println(philosopher.getName()+" puts down right chopstick.");
+		lock.unlock();
+	}
+
+	private void getLeftChopStick(Philosopher philosopher) {
+		lock.lock();
+		int number = Integer.parseInt(philosopher.getName().split(" ")[1]);
+		number = number % NO_OF_PHILOSOPHERS + 1;
+		try {
+			while(available[number-1]==0)
+				chopsticks.get(number-1).await();
+				
+			available[number-1] = 0;
+			System.out.println(philosopher.getName()+" picks up left chopstick");
+			
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		} finally {
+			lock.unlock();	
+		}
+	}
+	
+	private void getRightChopStick(Philosopher philosopher) {
+		lock.lock();
+		int number = Integer.parseInt(philosopher.getName().split(" ")[1]);
+		try {
+			while(available[number-1]==0)
+				chopsticks.get(number-1).await();
+			
+			available[number-1] = 0;
+			System.out.println(philosopher.getName()+" picks up right chopstick.");
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		} finally{
+			lock.unlock();
+		}
+	}
+
+
+	public static void main(String args[]) {
+		DinnerTable table = new DinnerTable();
+		System.out.println("Dinner is strating!");
+		ExecutorService executor = 	Executors.newFixedThreadPool(NO_OF_PHILOSOPHERS);
+		for(int i = 1; i<=NO_OF_PHILOSOPHERS; i++){
+			Philosopher p = table.new Philosopher(table);
+			p.setName("Philosopher "+i);
+			executor.execute(p);			
+		}
+		
+		executor.shutdown();
+		while(!executor.isTerminated()){}
+		System.out.println("Dinner is over!");
+		
+	}
+	
+	
+	private class Philosopher extends Thread {
+		private DinnerTable table;
+		private int counter = NO_OF_TIMES_EAT;
+		
+		public Philosopher(DinnerTable t) {this.table = t;}
+		
+		public void run(){
+			while(counter!=0){
+				table.eat(this);	//eat philosopher eat!!
+				try {
+					Thread.sleep((long) (Math.random()*1000L));  // Think! philosopher think!!
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+				counter--;
+			}
+		}
+	}
+	
+}

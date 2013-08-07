@@ -1,0 +1,1564 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82 -->
+<html lang="en-US" class="supports-svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./Timing_files/MathJax.js"></script>
+<meta charset="utf-8">
+<title>Timing</title>
+<link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8be561f5d56b20136c99ea175f81d0a2cc74b164/css/spark.main.css">
+<link rel="stylesheet" href="https://www.coursera.org/maestro/api/course/970478/course.css">
+<link rel="stylesheet" href="https://dt5zaw6a98blc.cloudfront.net/site-static/8be561f5d56b20136c99ea175f81d0a2cc74b164/css/spark.forum.hg.css">
+<link rel="icon" href="https://spark-public.s3.amazonaws.com/algs4partII/static/images/favicon.ico">
+<script type="text/javascript" async="" src="./Timing_files/ga.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pages/forum/widgets" src="./Timing_files/widgets.js"></script><meta property="og:title" content="Timing"><meta property="og:url" content="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82"><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; border: 0; padding: 0; margin: 0}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0 !important; padding: 0 !important; margin: 0 !important; vertical-align: 0 !important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+.MathJax nobr {white-space: nowrap ! important}
+.MathJax img {display: inline ! important; float: none ! important}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_ExBox {display: block; overflow: hidden; width: 1px; height: 60ex}
+.MathJax .MathJax_EmBox {display: block; overflow: hidden; width: 1px; height: 60em}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Main; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Main; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype'); font-weight: bold}
+@font-face {font-family: MathJax_Main; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Math; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype'); font-style: italic}
+@font-face {font-family: MathJax_Caligraphic; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size1; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size2; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size3; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
+@font-face {font-family: MathJax_Size4; src: url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('https://d2265nx4vomwra.cloudfront.net/2.1/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -1px -1px 1px -1px; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style></head>
+
+<body class="wysihtml5-supported"><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+    <a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#course-page-content" class="hidden">Skip Navigation</a>
+    <div class="hidden">
+        This page features MathJax technology to render mathematical formulae.
+        If you are using a screen reader, please visit <a href="http://www.dessci.com/en/products/mathplayer/">MathPlayer</a> to download the plugin for your browser. Please note that this is an Internet Explorer-only plugin at this time.
+    </div>
+
+    <h1 class="hidden">Algorithms, Part II</h1>
+
+    
+
+<div class="course-topbar container-fluid" role="banner">
+
+    <div class="row-fluid">
+        
+        <div class="span3">
+          <a href="https://www.coursera.org/" class="course-topbar-logo" data-if-linkable="add-referrer"></a>
+        </div>
+
+        <div class="course-topbar-nav-container span9" style="float:right;">
+            <h2 class="hidden">Top Navigation Bar</h2>
+
+            <ul class="course-topbar-nav-list">
+                <li class="course-topbar-nav-list-item">
+                  <a href="https://www.coursera.org/courses" data-if-linkable="add-referrer">Courses</a>
+                </li>
+
+                                
+                <li class="course-topbar-nav-list-item" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-topbar-my" data-popup="#course-topbar-my" data-popup-bind-open="mouseenter" data-popup-close="" style="cursor:pointer;" data-popup-direction="se">
+                                        <a data-user-id="1484404">  
+                        Vishal Juneja 
+                        <i class="icon-caret-down"></i>
+                    </a>
+                </li>
+               
+                            </ul>
+        </div>
+    </div>
+
+    <div id="course-topbar-aboutus" class="course-topbar-sublist">
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/jobs" target="_new" data-if-linkable="add-referrer">Jobs</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/team" target="_new" data-if-linkable="add-referrer">Team</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/contact" target="_new" data-if-linkable="add-referrer">Contact Us</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/about/" target="_new" data-if-linkable="add-referrer">About Us</a>
+    </div>
+
+    <div id="course-topbar-my" class="course-topbar-sublist">
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/" target="_new">Courses</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/profile" target="_new">Profile</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/records" target="_new">Course Records</a>
+        <a class="course-topbar-sublist-item" href="https://www.coursera.org/account/settings" target="_new">Settings</a>
+        <a class="course-topbar-sublist-item" href="https://class.coursera.org/algs4partII-001/class/preferences">Course Preferences</a>
+        <a class="course-topbar-sublist-item" href="https://class.coursera.org/algs4partII-001/auth/logout">Logout</a>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+<style type="text/css">
+ 
+
+
+</style>
+<div class="course-topbanner">
+  <div class="course-topbanner-university-logo">
+    <a href="https://www.coursera.org/princeton" class="coursera-university-color" target="_blank" data-if-linkable="add-referrer">
+      <img src="./Timing_files/university_logo" alt="University logo">
+    </a>
+  </div>
+
+  
+  <h1 class="course-topbanner-header">
+      <a class="course-topbanner-name coursera-university-color" href="https://class.coursera.org/algs4partII-001/class/index" data-if-linkable="modal-lock">
+        Algorithms, Part II      </a>
+      <br>
+      <span class="course-topbanner-instructor" style="">
+        by Kevin  Wayne, Robert  Sedgewick      </span>
+  </h1>
+</div>
+    
+        <div class="container-fluid" style="position:relative;">
+        <div class="row-fluid">
+            <div id="course-page-sidebar" role="navigation">
+                <div class="course-navbar-container">
+	<a href="https://class.coursera.org/algs4partII-001/class/index">
+	<img src="./Timing_files/logo" style="width: 210px;height: 112px;margin: -15px 0px 8px 1px; box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);">
+	</a>
+<h2 class="hidden">Side Navigation Bar</h2>
+<ul class="course-navbar-list">
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/class/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Home							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/wiki/view?page=Syllabus" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Syllabus							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/wiki/view?page=Schedule" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Schedule							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/lecture/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Lectures							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/quiz/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Exercises							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/assignment/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Programming Assignments							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/quiz/index?quiz_type=homework" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Job Interview Questions							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item active">
+								<a href="https://class.coursera.org/algs4partII-001/forum/index" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Discussion Forums							<span class="course-navbar-selected-marker">(selected)</span></a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/wiki/view?page=ScheduleGoogleHangouts" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Google+ Hangouts							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/wiki/view?page=errata" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Errata							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="https://class.coursera.org/algs4partII-001/quiz/index?quiz_type=survey" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Surveys							</a>
+						</li>
+	
+		
+	<li class="course-navbar-item">
+								</li>
+	
+		
+	<li class="course-navbar-item">
+								<a href="http://algs4.cs.princeton.edu/" target="_blank" data-if-linkable="modal-lock,gray,lock-icon" class="coursera-university-color">
+				
+				Booksite				<span class="icon-share"></span>			</a>
+						</li>
+	
+	
+		
+		<li class="course-navbar-item">
+		<a href="http://www.meetup.com/Coursera/" target="_blank" class="coursera-university-color">
+			Join a Meetup
+			<span class="icon-share"></span>
+		</a>
+	</li>
+	
+    </ul>
+
+</div>
+            </div>
+            <div id="course-page-content" role="main">
+                                <a data-coursera-admin-helpwidget-link="" rel="help" href="http://support.coursera.org/customer/portal/articles/1012101-forum-moderation-and-student-issues" title="Forum moderation and student issues" style="display:none;">Learn more</a><a data-coursera-admin-helpwidget-link="" rel="discuss" href="https://class.coursera.org/mooc/forum/tag?name=Forum&forum_id=7" style="display:none;">Discuss</a>
+
+<div data-coursera-forum-thread-widget="" data-thread-mode="page" data-thread-id="82" data-course-id="970478"><div><div class="course-forum-thread-crumbs"><ul class="course-forum-breadcrumb"><li><a href="https://class.coursera.org/algs4partII-001/forum/list">Forums</a><span class="divider"> / </span></li><li><a href="https://class.coursera.org/algs4partII-001/forum/list?forum_id=3">Programming Assignments</a><span class="divider"> / </span></li><li><a href="https://class.coursera.org/algs4partII-001/forum/list?forum_id=6">Programming Assignment 1 (WordNet)</a></li></ul></div><div class="course-forum-thread-header-wrapper"><div><div class="course-forum-thread-title"><h2>Timing</h2></div><div class="course-forum-thread-header"><div class="course-forum-thread-controls"><a title="Thread controls" tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-thread-controls-popup82" data-popup="#course-forum-thread-controls-popup82" data-popup-direction="se" class="course-forum-thread-controls-toggle"><i class="icon-cog"><span class="hidden">Thread controls</span></i></a><div id="course-forum-thread-controls-popup82" class="course-forum-thread-controls-popup hide"><a href="javascript:void(0)" data-property="unresolved" data-value="0" class="course-forum-thread-action-link">Resolve</a></div></div><div style="margin-right:10px; display:inline-block;"><a href="javascript:void(0);" class="course-forum-thread-subscribe-link">Subscribe for email updates.</a></div></div></div></div><div class="course-forum-thread-sort"><ul class="nav nav-pills pull-right"><li><span style="padding: 8px; display: inline-block;">Sort replies by:</span></li><li data-sort-name="oldest" class="active"><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82&sort=oldest">Oldest first</a></li><li data-sort-name="newest"><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82&sort=newest">Newest first</a></li><li data-sort-name="popular"><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82&sort=popular">Most popular</a></li></ul></div><div class="course-forum-thread-tags"><div><link href="./Timing_files/select2.css" rel="stylesheet" type="text/css"><h5 style="display:inline-block;"> <span class="hidden">Tags </span><i class="icon-tags"></i>&nbsp;</h5><ul style="display:inline-block;" class="unstyled"><li class="course-forum-thread-tag"><a href="https://class.coursera.org/algs4partII-001/forum/tag?id=1">general</a>&nbsp;<a data-tag="general" href="javascript:void(0)" class="course-forum-thread-tag-delete"><span class="hidden">Delete Tag</span>×</a></li></ul>&nbsp;<a href="javascript:void(0)" class="course-forum-thread-tags-link">+ Add Tag</a><form class="course-forum-thread-tags-form form-inline hide"><label>Please try to use existing tags.   &nbsp;</label><input type="text" name="tags" style="margin-left:10px" class="input-medium"><button type="button" style="margin-left:10px" disabled="disabled" class="btn">Save</button><a href="javascript:void(0)" role="button" style="margin-left:10px">Cancel</a></form></div></div><div class="course-forum-thread-area-container"><div class="course-forum-top-scroll-indicator" style="display: none;">⬆ scroll up for more ⬆</div><ul style="clear: right;" class="course-forum-thread-posts-container"><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-222" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=143341">Xinfei WU</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-222" name="post-222" style="vertical-align:middle"> <time datetime="1364364913" title="Wednesday, March 27th 2013, 11:45 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text"><pre>******************************************************************************
+*  memory usage
+******************************************************************************
+
+Computing memory of SAP
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student     memory = 4603088 bytes
+Reference   memory = 4607440 bytes
+
+vertices = 81426
+edges    = 75134
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+Computing memory of WordNet
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student   memory = 47595664 bytes
+Reference memory = 56683720 bytes
+
+vertices = 82192
+edges    = 84505
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.28 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 1584.4 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 1419.8 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing WordNet
+*-----------------------------------------------------------
+Running 2 total tests.
+
+Timing Wordnet construction. Max time allowed: 10 seconds.
+=&gt; PASSED, 1.18 seconds to build SAP for wordnet graph.
+
+Calling sap() and distance() with random nouns for 6 seconds, then again for 5 seconds. Timing is for only the last 5 seconds.
+=&gt; PASSED, 890.2 calls per second.
+
+Total: 2/2 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing Outcast
+*-----------------------------------------------------------
+Running 1 total tests.
+
+1.72 seconds to build WordNet
+
+Computing time to find outcasts. Total time must not exceed 5 seconds.
+
+
+    filename       N     time
+-----------------------------
+   outcast4.txt    4     0.02
+   outcast5.txt    5     0.04
+  outcast5a.txt    5     0.02
+   outcast5.txt    5     0.01
+   outcast7.txt    7     0.03
+   outcast8.txt    8     0.04
+  outcast8a.txt    8     0.04
+  outcast8b.txt    8     0.04
+  outcast8c.txt    8     0.04
+   outcast9.txt    9     0.05
+  outcast9a.txt    9     0.05
+  outcast10.txt   10     0.06
+ outcast10a.txt   10     0.06
+  outcast11.txt   11     0.07
+  outcast12.txt   12     0.08
+ outcast12a.txt   12     0.08
+  outcast20.txt   20     0.22
+  outcast29.txt   29     0.47
+=&gt; PASSED, total elapsed time: 1.38
+
+Total: 1/1 tests passed!
+
+================================================================</pre></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-222" data-popup="#course-forum-post-vote-hint-222" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count course-forum-votes-positive">4</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-222" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-222" data-popup="#course-forum-post-flag-hint-222" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-222" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""></ul></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-254" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-254" name="post-254" style="vertical-align:middle"> <time datetime="1364398887" title="Wednesday, March 27th 2013, 9:11 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Mine with a bare-bones unoptimized SAP. Looks to me like SAP performance speed is the only thing worth comparing for this assignment since both WordNet and Outcast uses the reference SAP. Your SAP numbers look very good&nbsp;<a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=143341" target="">Xinfei WU</a>. Care to talk about the optimizations you implemented?<br><br><pre>******************************************************************************
+*  memory usage
+******************************************************************************
+
+Computing memory of SAP
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student     memory = 4603032 bytes
+Reference   memory = 4607472 bytes
+
+vertices = 81426
+edges    = 75134
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+Computing memory of WordNet
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student   memory = 38403560 bytes
+Reference memory = 57432160 bytes
+
+vertices = 82192
+edges    = 84505
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.27 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 527.8 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 715.2 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing WordNet
+*-----------------------------------------------------------
+Running 2 total tests.
+
+Timing Wordnet construction. Max time allowed: 10 seconds.
+=&gt; PASSED, 1.15 seconds to build SAP for wordnet graph.
+
+Calling sap() and distance() with random nouns for 6 seconds, then again for 5 seconds. Timing is for only the last 5 seconds.
+=&gt; PASSED, 893.8 calls per second.
+
+Total: 2/2 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing Outcast
+*-----------------------------------------------------------
+Running 1 total tests.
+
+1.71 seconds to build WordNet
+
+Computing time to find outcasts. Total time must not exceed 5 seconds.
+
+
+    filename       N     time
+-----------------------------
+   outcast4.txt    4     0.01
+   outcast5.txt    5     0.04
+  outcast5a.txt    5     0.02
+   outcast5.txt    5     0.01
+   outcast7.txt    7     0.03
+   outcast8.txt    8     0.04
+  outcast8a.txt    8     0.04
+  outcast8b.txt    8     0.04
+  outcast8c.txt    8     0.04
+   outcast9.txt    9     0.05
+  outcast9a.txt    9     0.05
+  outcast10.txt   10     0.06
+ outcast10a.txt   10     0.06
+  outcast11.txt   11     0.07
+  outcast12.txt   12     0.08
+ outcast12a.txt   12     0.08
+  outcast20.txt   20     0.22
+  outcast29.txt   29     0.47
+=&gt; PASSED, total elapsed time: 1.38
+
+Total: 1/1 tests passed!
+
+================================================================</pre></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-254" data-popup="#course-forum-post-vote-hint-254" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count course-forum-votes-positive">1</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-254" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-254" data-popup="#course-forum-post-flag-hint-254" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-254" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-259" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><span>Anonymous</span><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-259" name="post-259" style="vertical-align:middle"> <time datetime="1364403377" title="Wednesday, March 27th 2013, 10:26 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Good job!<br><br>Which check did you use in order to make sure that the graph is a rooted DAG? For example, did you check that the graph is fully connected? There seems to be some confusion about what is needed...</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-259" data-popup="#course-forum-post-vote-hint-259" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-259" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-259" data-popup="#course-forum-post-flag-hint-259" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-259" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""><li><div data-permalink="comment-63" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-63" name="comment-63" style="vertical-align:middle"> <time datetime="1364441353" title="Thursday, March 28th 2013, 8:59 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">I wrote a small class mirrored around the DirectedCycle class provided on the booksite. Its job is simply to check if a given digraph is both acyclic and has only one root. It completes a DFS traversal of the graph only if it checks out since I can always return early out of the check once I find either a cycle or a second root.<br><br>As I wrote earlier in another thread, a root is simply a vertex with no outgoing edges, so it is easy to search for them.</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-63" data-popup="#course-forum-post-vote-hint-63" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count course-forum-votes-positive">2</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-63" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-63" data-popup="#course-forum-post-flag-hint-63" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-63" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-283" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-283" name="post-283" style="vertical-align:middle"> <time datetime="1364441474" title="Thursday, March 28th 2013, 9:01 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Updated timing results for SAP.java after implementing a software cache for&nbsp;public int length(int v, int w) and&nbsp;public int ancestor(int v, int w) but not yet for the Iterable versions of both. Looks like software caches really work!<br><br><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.26 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 2876.6 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 729.6 calls per second.
+
+Total: 3/3 tests passed!</pre></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-283" data-popup="#course-forum-post-vote-hint-283" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-283" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-283" data-popup="#course-forum-post-flag-hint-283" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-283" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""><li><div data-permalink="comment-64" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=143341">Xinfei WU</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-64" name="comment-64" style="vertical-align:middle"> <time datetime="1364445167" title="Thursday, March 28th 2013, 10:02 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Impressive,&nbsp;<span>2876.6 calls per second. I just used variables to cache the latest length and ancestor. I think you may used Map to cache all the results.</span></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-64" data-popup="#course-forum-post-vote-hint-64" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-64" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-64" data-popup="#course-forum-post-flag-hint-64" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-64" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-67" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><span>Anonymous</span><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-67" name="comment-67" style="vertical-align:middle"> <time datetime="1364481526" title="Thursday, March 28th 2013, 8:08 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">was thinking of caching all myself, but I'm concerned about the memory footprint</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-67" data-popup="#course-forum-post-vote-hint-67" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-67" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-67" data-popup="#course-forum-post-flag-hint-67" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-67" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-68" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-68" name="comment-68" style="vertical-align:middle"> <time datetime="1364482774" title="Thursday, March 28th 2013, 8:29 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Note that I also only cache the last result, with possibly the only difference being that I also check if the two arguments are the same, only exchanged, which has the same result. I also note that the grading server feels flaky to me. I've been testing all kinds of optimizations and sometimes my SAP goes incredibly slow even though the changes are elsewhere so good numbers may simply be a matter of getting lucky.<br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-68" data-popup="#course-forum-post-vote-hint-68" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-68" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-68" data-popup="#course-forum-post-flag-hint-68" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-68" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-249" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=200410">Peter Li</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-249" name="comment-249" style="vertical-align:middle"> <time datetime="1364889803" title="Tuesday, April 2nd 2013, 1:33 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">I considered caching many results, but didn't seem feasible to cache iterables?</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-249" data-popup="#course-forum-post-vote-hint-249" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count course-forum-votes-positive">1</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-249" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-249" data-popup="#course-forum-post-flag-hint-249" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-249" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-370" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=148291">Sanjaya Kumar</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-370" name="post-370" style="vertical-align:middle"> <time datetime="1364584484" title="Saturday, March 30th 2013, 12:44 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">I did really well on the SAP timing. WordNet not as good though -- but it passes!<br><br><pre><code>******************************************************************************
+*  timing
+******************************************************************************
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.57 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 191840.2 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 1872.0 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing WordNet
+*-----------------------------------------------------------
+Running 2 total tests.
+
+Timing Wordnet construction. Max time allowed: 10 seconds.
+=&gt; PASSED, 1.84 seconds to build SAP for wordnet graph.
+
+Calling sap() and distance() with random nouns for 6 seconds, then again for 5 seconds. Timing is for only the last 5 seconds.
+=&gt; PASSED, 530.0 calls per second.
+
+Total: 2/2 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing Outcast
+*-----------------------------------------------------------
+Running 1 total tests.
+
+2.68 seconds to build WordNet
+
+Computing time to find outcasts. Total time must not exceed 5 seconds.
+
+
+    filename       N     time
+-----------------------------
+   outcast4.txt    4     0.04
+   outcast5.txt    5     0.03
+  outcast5a.txt    5     0.07
+   outcast5.txt    5     0.03
+   outcast7.txt    7     0.08
+   outcast8.txt    8     0.07
+  outcast8a.txt    8     0.11
+  outcast8b.txt    8     0.16
+  outcast8c.txt    8     0.13
+   outcast9.txt    9     0.09
+  outcast9a.txt    9     0.08
+  outcast10.txt   10     0.42
+ outcast10a.txt   10     0.09
+  outcast11.txt   11     0.13
+  outcast12.txt   12     0.21
+ outcast12a.txt   12     0.14
+  outcast20.txt   20     0.39
+  outcast29.txt   29     0.81
+=&gt; PASSED, total elapsed time: 3.08
+
+Total: 1/1 tests passed!
+
+================================================================</code></pre><br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-370" data-popup="#course-forum-post-vote-hint-370" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-370" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-370" data-popup="#course-forum-post-flag-hint-370" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-370" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""><li><div data-permalink="comment-95" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-95" name="comment-95" style="vertical-align:middle"> <time datetime="1364610197" title="Saturday, March 30th 2013, 7:53 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">191840.2 calls per second?! How did you manage that? Although I do note that the autograder was kind of flaky last night (my local time) and was giving me inconsistent results. This is probably the best that I can do for now as we have to move on to the next assignment. I was hoping to implement the optimization to cut off BFS early but couldn't get it to work with 100% correctness. I would often get an off by one error, returning a distance that is just 1 larger than the correct value.<br><br><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.55 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 2509.8 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 8734.2 calls per second.
+
+Total: 3/3 tests passed!
+
+</pre></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-95" data-popup="#course-forum-post-vote-hint-95" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-95" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-95" data-popup="#course-forum-post-flag-hint-95" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-95" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-97" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=148291">Sanjaya Kumar</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-97" name="comment-97" style="vertical-align:middle"> <time datetime="1364612591" title="Saturday, March 30th 2013, 8:33 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">You're probably right -- it does seem unbelievable and a flaky grader is the more likely explanation. I'll submit the same code again and report what happens.</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-97" data-popup="#course-forum-post-vote-hint-97" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-97" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-97" data-popup="#course-forum-post-flag-hint-97" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-97" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-99" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=148291">Sanjaya Kumar</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-99" name="comment-99" style="vertical-align:middle"> <time datetime="1364621187" title="Saturday, March 30th 2013, 10:56 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Here are the results of a new run. In the same ballpark as before.<br><pre>******************************************************************************
+*  timing
+******************************************************************************
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.55 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 215079.6 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 2435.6 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing WordNet
+*-----------------------------------------------------------
+Running 2 total tests.
+
+Timing Wordnet construction. Max time allowed: 10 seconds.
+=&gt; PASSED, 1.47 seconds to build SAP for wordnet graph.
+
+Calling sap() and distance() with random nouns for 6 seconds, then again for 5 seconds. Timing is for only the last 5 seconds.
+=&gt; PASSED, 714.0 calls per second.
+
+Total: 2/2 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing Outcast
+*-----------------------------------------------------------
+Running 1 total tests.
+
+2.27 seconds to build WordNet
+
+Computing time to find outcasts. Total time must not exceed 5 seconds.
+
+
+    filename       N     time
+-----------------------------
+   outcast4.txt    4     0.03
+   outcast5.txt    5     0.03
+  outcast5a.txt    5     0.02
+   outcast5.txt    5     0.02
+   outcast7.txt    7     0.08
+   outcast8.txt    8     0.06
+  outcast8a.txt    8     0.07
+  outcast8b.txt    8     0.40
+  outcast8c.txt    8     0.06
+   outcast9.txt    9     0.08
+  outcast9a.txt    9     0.08
+  outcast10.txt   10     0.09
+ outcast10a.txt   10     0.09
+  outcast11.txt   11     0.20
+  outcast12.txt   12     0.14
+ outcast12a.txt   12     0.14
+  outcast20.txt   20     0.40
+  outcast29.txt   29     0.66
+=&gt; PASSED, total elapsed time: 2.66
+
+Total: 1/1 tests passed!
+
+================================================================
+</pre><div><br></div></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-99" data-popup="#course-forum-post-vote-hint-99" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count course-forum-votes-positive">1</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-99" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-99" data-popup="#course-forum-post-flag-hint-99" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-99" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-100" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-100" name="comment-100" style="vertical-align:middle"> <time datetime="1364622233" title="Saturday, March 30th 2013, 11:13 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Very impressive then! Did you accomplish this by maintaining a very large cache or some other form of optimization?</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-100" data-popup="#course-forum-post-vote-hint-100" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-100" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-100" data-popup="#course-forum-post-flag-hint-100" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-100" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-101" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=148291">Sanjaya Kumar</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-101" name="comment-101" style="vertical-align:middle"> <time datetime="1364627079" title="Saturday, March 30th 2013, 12:34 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Mostly I did things suggested in the hints:<br><br><ol><li>Created DeluxeBFS to provide a list of ancestors. Then I check v's list vs. w's list and not V x V.</li><li>Get length and SAP in one call and cache them (I cache only the last pair or pair or sets).</li><li>DeluxeBFS constructors are called only twice in the lifetime of one SAP. DeluxeBFS supports change_source_to(new_v)&nbsp;to patch up the marked[] and distTo[] arrays based on the cached ancestors of the previous v instead of initializing them from scratch.</li></ol>That's pretty much it. I didn't do the simultaneous v and w thing in the hints. I still think it may be a checker problem.</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-101" data-popup="#course-forum-post-vote-hint-101" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count course-forum-votes-positive">1</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-101" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-101" data-popup="#course-forum-post-flag-hint-101" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-101" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-103" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-103" name="comment-103" style="vertical-align:middle"> <time datetime="1364628596" title="Saturday, March 30th 2013, 12:59 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">The key part here is iterating only through the list of ancestors. I did everything you did, except that I was still iterating through all of the vertices in the digraph instead of those that are actually reached, which in retrospect, was pretty silly. Here are my new results. Thanks for the very handy tip!<br><br><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.63 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 186863.4 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 26386.8 calls per second.
+
+Total: 3/3 tests passed!</pre></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-103" data-popup="#course-forum-post-vote-hint-103" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-103" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-103" data-popup="#course-forum-post-flag-hint-103" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-103" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-113" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=148291">Sanjaya Kumar</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-113" name="comment-113" style="vertical-align:middle"> <time datetime="1364655758" title="Saturday, March 30th 2013, 8:32 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">So it was <i>not</i> a checker problem after all. Glad I was able to help. But now I need to see what's wrong with my implementation when v and w are arrays.</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-113" data-popup="#course-forum-post-vote-hint-113" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-113" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-113" data-popup="#course-forum-post-flag-hint-113" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-113" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-163" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=1966714"><img src="./Timing_files/Homer_brain.jpg">Homer Thompson</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-163" name="comment-163" style="vertical-align:middle"> <time datetime="1364713331" title="Sunday, March 31st 2013, 12:32 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">By iterating through ancestors you mean iterating through reachable nodes from v and w, correct? How do you implement your list of reachable vertices for each BFS? I used a java.util.HashSet in my DeluxeBFS class since it offers an O(1) contains() operation and since there is no satellite data needed for my reachable list (so the HashST's from Algorithms I seem like overkill; maybe use a bloom filter instead?). My number of ops sucks though even though I have implemented a cache in my SAP class (though I didn't implement Sanjaya's optimization 3 yet)... <br><br><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.72 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 954.2 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 1219.2 calls per second.
+
+Total: 3/3 tests passed!</pre><br><br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-163" data-popup="#course-forum-post-vote-hint-163" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-163" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-163" data-popup="#course-forum-post-flag-hint-163" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-163" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-570" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=2011812">Alexander Karatarakis</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-570" name="post-570" style="vertical-align:middle"> <time datetime="1364832855" title="Monday, April 1st 2013, 9:44 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text"><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.54 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 223883.0 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 38009.8 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================</pre><br>This is without the second optimization.<br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-570" data-popup="#course-forum-post-vote-hint-570" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-570" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-570" data-popup="#course-forum-post-flag-hint-570" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-570" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-576" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=942250"><img src="./Timing_files/IMG_0676.jpg">Leslie Klein</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-576" name="post-576" style="vertical-align:middle"> <time datetime="1364837873" title="Monday, April 1st 2013, 11:07 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text"><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.55 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 1875.8 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 1919.8 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================<code></code></pre><br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-576" data-popup="#course-forum-post-vote-hint-576" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-576" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-576" data-popup="#course-forum-post-flag-hint-576" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-576" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""><li><div data-permalink="comment-241" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=942250"><img src="./Timing_files/IMG_0676.jpg">Leslie Klein</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-241" name="comment-241" style="vertical-align:middle"> <time datetime="1364837942" title="Monday, April 1st 2013, 11:09 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Without the second optimization. My results are SO SLOW compared to @Alexander Karatarakis, whose results are AMAZING!</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-241" data-popup="#course-forum-post-vote-hint-241" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-241" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-241" data-popup="#course-forum-post-flag-hint-241" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-241" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-645" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=1966714"><img src="./Timing_files/Homer_brain.jpg">Homer Thompson</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-645" name="post-645" style="vertical-align:middle"> <time datetime="1364898102" title="Tuesday, April 2nd 2013, 3:51 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Finally got my code optimized enough to give a reasonable timing<br><br><pre>******************************************************************************
+*  memory usage
+******************************************************************************
+
+Computing memory of SAP
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student     memory = 8473128 bytes
+Reference   memory = 8065600 bytes
+
+vertices = 81426
+edges    = 75134
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+Computing memory of WordNet
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student   memory = 63385480 bytes
+Reference memory = 118019560 bytes
+
+vertices = 82192
+edges    = 84505
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.55 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 136134.2 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 24760.6 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing WordNet
+*-----------------------------------------------------------
+Running 2 total tests.
+
+Timing Wordnet construction. Max time allowed: 10 seconds.
+=&gt; PASSED, 1.34 seconds to build SAP for wordnet graph.
+
+Calling sap() and distance() with random nouns for 6 seconds, then again for 5 seconds. Timing is for only the last 5 seconds.
+=&gt; PASSED, 743.0 calls per second.
+
+Total: 2/2 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing Outcast
+*-----------------------------------------------------------
+Running 1 total tests.
+
+2.30 seconds to build WordNet
+
+Computing time to find outcasts. Total time must not exceed 5 seconds.
+
+
+    filename       N     time
+-----------------------------
+   outcast4.txt    4     0.03
+   outcast5.txt    5     0.02
+  outcast5a.txt    5     0.02
+   outcast5.txt    5     0.06
+   outcast7.txt    7     0.04
+   outcast8.txt    8     0.05
+  outcast8a.txt    8     0.05
+  outcast8b.txt    8     0.12
+  outcast8c.txt    8     0.14
+   outcast9.txt    9     0.14
+  outcast9a.txt    9     0.06
+  outcast10.txt   10     0.08
+ outcast10a.txt   10     0.36
+  outcast11.txt   11     0.09
+  outcast12.txt   12     0.11
+ outcast12a.txt   12     0.17
+  outcast20.txt   20     0.31
+  outcast29.txt   29     0.57
+=&gt; PASSED, total elapsed time: 2.42
+
+Total: 1/1 tests passed!
+
+================================================================</pre><br>I feel strange calling my class DeluxeBFS though when I had to strip down unnecessary parts like the edgeTo[] array to make room for storing two hash maps (not very deluxe anymore without being able to compute pathTo(), haha). My SAP class has one persistent DeluxeBFS object, which stores<br><br>- A set of vertices to reset when the object has to be reused<br>- the marked[] and distTo[] arrays<br>- A hash map to map ancestors to their distTo[] value from the given source vertex for client use<br>- A set source vertex/vertices operation that resets the set of vertices mentioned above and then runs dfs from the source(s)<br><br>These hash maps cost me a good chunk of memory though. I hate having my memory footprint 5% greater than the reference for the SAP object. I should read up a bit to see if the algs4 linear probing or separate chaining hash ST's look like they'd take less memory than the java.util.HashMaps I'm using currently.<br><br>For instance, when I need to compute length(v, w) after a cache miss I need to clone() the hashmap for source vertex v (giving the distance from the source vertex v to each ancestor vertex) before setting the source vertex to w and thus invalidating the distTo[] values for v. Then for w I can just the DeluxeBFS's hashmap since the DeluxeBFS for w is still valid. Maybe it can be done better?<br><br>Has anyone gotten good results implementing a larger cache than just the previous computation? (that's what I'm using in mine)<br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-645" data-popup="#course-forum-post-vote-hint-645" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-645" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-645" data-popup="#course-forum-post-flag-hint-645" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-645" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-725" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=341899">Oleg Konovalov</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-725" name="post-725" style="vertical-align:middle"> <time datetime="1364995426" title="Wednesday, April 3rd 2013, 6:53 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Implemented three optimization hints, nothing more.<br>Don’t think large cache can help on real dictionary. It’s unlikely to have a lot of the same queries on a big graph, but maybe it can cheat timing tests, I didn’t check.<br><br><pre>******************************************************************************
+*  memory usage
+******************************************************************************
+
+Computing memory of SAP
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student     memory = 8880032 bytes
+Reference   memory = 8065600 bytes
+
+vertices = 81426
+edges    = 75134
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+Computing memory of WordNet
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student   memory = 56704232 bytes
+Reference memory = 118019560 bytes
+
+vertices = 82192
+edges    = 84505
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.55 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 235690.0 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 206098.0 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing WordNet
+*-----------------------------------------------------------
+Running 2 total tests.
+
+Timing Wordnet construction. Max time allowed: 10 seconds.
+=&gt; PASSED, 1.35 seconds to build SAP for wordnet graph.
+
+Calling sap() and distance() with random nouns for 6 seconds, then again for 5 seconds. Timing is for only the last 5 seconds.
+=&gt; PASSED, 737.8 calls per second.
+
+Total: 2/2 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing Outcast
+*-----------------------------------------------------------
+Running 1 total tests.
+
+2.34 seconds to build WordNet
+
+Computing time to find outcasts. Total time must not exceed 5 seconds.
+
+
+    filename       N     time
+-----------------------------
+   outcast4.txt    4     0.03
+   outcast5.txt    5     0.01
+  outcast5a.txt    5     0.01
+   outcast5.txt    5     0.01
+   outcast7.txt    7     0.02
+   outcast8.txt    8     0.07
+  outcast8a.txt    8     0.03
+  outcast8b.txt    8     0.03
+  outcast8c.txt    8     0.03
+   outcast9.txt    9     0.04
+  outcast9a.txt    9     0.04
+  outcast10.txt   10     0.12
+ outcast10a.txt   10     0.12
+  outcast11.txt   11     0.14
+  outcast12.txt   12     0.06
+ outcast12a.txt   12     0.06
+  outcast20.txt   20     0.44
+  outcast29.txt   29     0.43
+=&gt; PASSED, total elapsed time: 1.65
+
+Total: 1/1 tests passed!
+
+================================================================</pre><br><br><br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-725" data-popup="#course-forum-post-vote-hint-725" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-725" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-725" data-popup="#course-forum-post-flag-hint-725" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-725" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""><li><div data-permalink="comment-306" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=2011812">Alexander Karatarakis</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-306" name="comment-306" style="vertical-align:middle"> <time datetime="1364996073" title="Wednesday, April 3rd 2013, 7:04 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">How did you go about optimization #2? When I added it, I got worse performance (though it might be that the autograder was overloaded). <br><br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-306" data-popup="#course-forum-post-vote-hint-306" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-306" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-306" data-popup="#course-forum-post-flag-hint-306" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-306" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-307" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=341899">Oleg Konovalov</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-307" name="comment-307" style="vertical-align:middle"> <time datetime="1364997095" title="Wednesday, April 3rd 2013, 7:21 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Optimization #2 sounds reasonable, so I implemented it. Just compared, you right - without it results are better.<br><br><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.55 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 243348.0 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 228060.0 calls per second.
+
+Total: 3/3 tests passed!</pre>Autograder sometimes overloaded and gives bad results.<br><br><br><br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-307" data-popup="#course-forum-post-vote-hint-307" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-307" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-307" data-popup="#course-forum-post-flag-hint-307" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-307" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-311" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=2011812">Alexander Karatarakis</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-311" name="comment-311" style="vertical-align:middle"> <time datetime="1364997844" title="Wednesday, April 3rd 2013, 7:34 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Ok, I am intrigued by the length/ancestor for arrays :).<br>Mine looks the same as in the single input version, except that it calls the Iterable&lt;&gt; versions of the bfs methods. Also, I have a single entry cache for this, but I only use the cached version by checking for reference equality, i.e. w == cachedW and not checking if it has the same elements.&nbsp; Do you check the elements?<br>Furthermore, what structure do you use in DeluxeBFS for storing the changed indices?<br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-311" data-popup="#course-forum-post-vote-hint-311" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-311" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-311" data-popup="#course-forum-post-flag-hint-311" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-311" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-312" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=942250"><img src="./Timing_files/IMG_0676.jpg">Leslie Klein</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-312" name="comment-312" style="vertical-align:middle"> <time datetime="1365000802" title="Wednesday, April 3rd 2013, 8:23 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">I use Stack&lt;Integer&gt; to store changed indices. &nbsp;<br>I too use the same code for int inputs and Iterable&lt;Integer&gt; inputs. &nbsp;<br>My cache uses a key equal to the string of the command. For ex,&nbsp;String key = "length(" + v + ", " + w + ")"; &nbsp;&nbsp;<br>To find a common ancestor, I only iterate through visited vertices of my first bfs calculation.&nbsp;<br><br>I am doing something wrong because my SAP timing is 100x slower than yours! Any ideas? Thx.</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-312" data-popup="#course-forum-post-vote-hint-312" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-312" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-312" data-popup="#course-forum-post-flag-hint-312" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-312" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-313" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=2011812">Alexander Karatarakis</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-313" name="comment-313" style="vertical-align:middle"> <time datetime="1365000948" title="Wednesday, April 3rd 2013, 8:25 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">You are doing String concatenation and String equality! This is really slow, I think this is the problem. To see this, submit a version without using any cache for the Iterable&lt;&gt; versions. <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-313" data-popup="#course-forum-post-vote-hint-313" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-313" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-313" data-popup="#course-forum-post-flag-hint-313" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-313" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-314" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=341899">Oleg Konovalov</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-314" name="comment-314" style="vertical-align:middle"> <time datetime="1365001360" title="Wednesday, April 3rd 2013, 8:32 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">I don't have DeluxeBFS class, check only references equality for caching. All implemented inside SAP. It has marked1, marked2, distTo1, distTo2 arrays. Main job is done inside method which takes 2 queues. In that method create two ArrayList for storing the changed indices (maybe not the best choise, I'm not an expert, I use java only for this course, but ArrayList looks like c++ vector for me), choose minimum length inside second bfs, reset marked1 and marked2 arrays. No need to reset distTo. Nothing special...</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-314" data-popup="#course-forum-post-vote-hint-314" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-314" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-314" data-popup="#course-forum-post-flag-hint-314" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-314" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-319" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=2011812">Alexander Karatarakis</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-319" name="comment-319" style="vertical-align:middle"> <time datetime="1365009933" title="Wednesday, April 3rd 2013, 10:55 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Same, here I run it again and got:<br><br><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.60 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 193860.0 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 168735.0 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================</pre><br>Single version turned slower, array version got 5x faster. o_O<br><br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-319" data-popup="#course-forum-post-vote-hint-319" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-319" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-319" data-popup="#course-forum-post-flag-hint-319" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-319" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-341" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-341" name="comment-341" style="vertical-align:middle"> <time datetime="1365084960" title="Thursday, April 4th 2013, 7:46 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text"><p>Hey <b><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=341899" target="">Oleg Konovalov</a> </b> I don't get this part: why isn't it necessary to reset distTo?</p></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-341" data-popup="#course-forum-post-vote-hint-341" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-341" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-341" data-popup="#course-forum-post-flag-hint-341" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-341" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li><li><div data-permalink="comment-342" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=2011812">Alexander Karatarakis</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-342" name="comment-342" style="vertical-align:middle"> <time datetime="1365086306" title="Thursday, April 4th 2013, 8:08 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">You will only access things that are marked in the boolean array (which is reset). If they are marked, then the relevant entries in distTo will have the correct values (since you just calculated them). Any other entry is not accessed so we don't care about it. <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-342" data-popup="#course-forum-post-vote-hint-342" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count course-forum-votes-positive">2</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-342" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-342" data-popup="#course-forum-post-flag-hint-342" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-342" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-1046" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-1046" name="post-1046" style="vertical-align:middle"> <time datetime="1365500960" title="Tuesday, April 9th 2013, 3:19 pm +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Pretty much the best that I can do with this assignment. Strangely despite everything I've tried implementing the optimization that cuts the BFS off early always results in slower times.<br><br><pre>Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.57 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 230907.0 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 210159.0 calls per second.
+
+Total: 3/3 tests passed!</pre></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-1046" data-popup="#course-forum-post-vote-hint-1046" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-1046" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-1046" data-popup="#course-forum-post-flag-hint-1046" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-1046" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-1079" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=1650216">Aleksandar Markovic</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-1079" name="post-1079" style="vertical-align:middle"> <time datetime="1365548736" title="Wednesday, April 10th 2013, 4:35 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text"><pre>Computing memory of SAP
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student     memory = 9531544 bytes
+Reference   memory = 8065600 bytes
+
+vertices = 81426
+edges    = 75134
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+Computing memory of WordNet
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student   memory = 73226064 bytes
+Reference memory = 118019560 bytes
+
+vertices = 82192
+edges    = 84505
+
+Total: 1/1 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.64 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 296894.0 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 331645.0 calls per second.
+
+Total: 3/3 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing WordNet
+*-----------------------------------------------------------
+Running 2 total tests.
+
+Timing Wordnet construction. Max time allowed: 10 seconds.
+=&gt; PASSED, 1.44 seconds to build SAP for wordnet graph.
+
+Calling sap() and distance() with random nouns for 6 seconds, then again for 5 seconds. Timing is for only the last 5 seconds.
+=&gt; PASSED, 657.8 calls per second.
+
+Total: 2/2 tests passed!
+
+================================================================
+
+
+
+******************************************************************************
+*  timing
+******************************************************************************
+
+Timing Outcast
+*-----------------------------------------------------------
+Running 1 total tests.
+
+2.53 seconds to build WordNet
+
+Computing time to find outcasts. Total time must not exceed 5 seconds.
+
+
+    filename       N     time
+-----------------------------
+   outcast4.txt    4     0.04
+   outcast5.txt    5     0.03
+  outcast5a.txt    5     0.07
+   outcast5.txt    5     0.02
+   outcast7.txt    7     0.04
+   outcast8.txt    8     0.06
+  outcast8a.txt    8     0.10
+  outcast8b.txt    8     0.16
+  outcast8c.txt    8     0.14
+   outcast9.txt    9     0.07
+  outcast9a.txt    9     0.07
+  outcast10.txt   10     0.40
+ outcast10a.txt   10     0.10
+  outcast11.txt   11     0.12
+  outcast12.txt   12     0.18
+ outcast12a.txt   12     0.12
+  outcast20.txt   20     0.34
+  outcast29.txt   29     0.72
+=&gt; PASSED, total elapsed time: 2.78
+
+Total: 1/1 tests passed!</pre></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-1079" data-popup="#course-forum-post-vote-hint-1079" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-1079" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-1079" data-popup="#course-forum-post-flag-hint-1079" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-1079" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-1083" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=1650216">Aleksandar Markovic</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-1083" name="post-1083" style="vertical-align:middle"> <time datetime="1365551732" title="Wednesday, April 10th 2013, 5:25 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text"><pre>******************************************************************************
+*  timing
+******************************************************************************
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.55 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 317946.0 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 332168.0 calls per second.
+
+Total: 3/3 tests passed!
+</pre><div>The best I can do, all 3 optimization's, maybe a bit more memory optimizing, but nothing more with time.</div></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-1083" data-popup="#course-forum-post-vote-hint-1083" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-1083" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-1083" data-popup="#course-forum-post-flag-hint-1083" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-1083" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""><li><div data-permalink="comment-529" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=538892">Wan Kong Yew</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-529" name="comment-529" style="vertical-align:middle"> <time datetime="1365557843" title="Wednesday, April 10th 2013, 7:07 am +05:30">2 months ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Your SAP memory usage appears higher than normal. Did you use extra memory to implement a more extensive cache? Also, can you talk about how you implement cutting off the BFS early?</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-529" data-popup="#course-forum-post-vote-hint-529" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-529" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-529" data-popup="#course-forum-post-flag-hint-529" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-529" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-2135" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/profile?user_id=983197">Nemanja Stijak</a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-2135" name="post-2135" style="vertical-align:middle"> <time datetime="1368874781" title="Saturday, May 18th 2013, 4:29 pm +05:30">9 days ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text"><pre>Computing memory of WordNet
+*-----------------------------------------------------------
+Running 1 total tests.
+
+Student   memory = 55126728 bytes
+Reference memory = 118019560 bytes
+
+vertices = 82192
+edges    = 84505
+
+Total: 1/1 tests passed!
+
+Timing SAP
+*-----------------------------------------------------------
+Running 3 total tests.
+
+Timing SAP creation. Max time allowed: 10 seconds.
+=&gt; PASSED, 0.65 seconds to build SAP for wordnet graph.
+
+Calling length(v, w) and ancestor(v ,w) for random v and random w.
+=&gt; PASSED, 221497.0 calls per second.
+
+Calling length(v, w) and ancestor(v ,w) for random arrays v and w, both of length 10.
+=&gt; PASSED, 210338.0 calls per second.
+
+Total: 3/3 tests passed!</pre><code></code>I don't know why reference WordNet uses double the memory (SAP memory is about the same). when I didn't do any particular memory&nbsp;optimization&nbsp;in WordNet;<br><br>But SAP timing is what I am really proud of :)<br><br><br><span class="_wysihtml5-temp"></span><br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-2135" data-popup="#course-forum-post-vote-hint-2135" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-2135" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-2135" data-popup="#course-forum-post-flag-hint-2135" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-2135" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></div><ul class="course-forum-comments-container" style=""><li><div data-permalink="comment-996" class="course-forum-post-view-container "><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><span>Anonymous</span><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#comment-996" name="comment-996" style="vertical-align:middle"> <time datetime="1368893196" title="Saturday, May 18th 2013, 9:36 pm +05:30">9 days ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text">Will you share your code?&nbsp;;)&nbsp;</div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-996" data-popup="#course-forum-post-vote-hint-996" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count ">0</span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive"><i class="icon-arrow-down"></i></div></div><div id="course-forum-post-vote-hint-996" class="course-forum-post-vote-hint help-block hide"> Please use votes to bring attention to thoughtful, helpful posts. <br>
+ (Even if you personally disagree with the post - we like a diversity of opinions here.) Thanks! <br></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-996" data-popup="#course-forum-post-flag-hint-996" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-996" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this comment is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div></li></ul><div class="course-forum-new-comment-container"></div><div class="course-forum-new-comment-link-container" style=""><a href="javascript:void(0);" class="course-forum-new-comment-link">+ Comment</a></div></div></div></ul><div class="course-forum-bottom-scroll-indicator" style="display: none;">⬇ scroll down for more ⬇</div><div class="course-forum-thread-new-post" style=""><div><div class="course-forum-post-container"><div class="course-forum-post-top-container"><li><div data-permalink="post-undefined" class="course-forum-post-view-container " style="display: none;"><div class="course-forum-post-header"><div class="course-forum-post-controls"></div><h5 class="course-forum-post-byline"><a href="https://class.coursera.org/algs4partII-001/forum/undefined"></a><span style="vertical-align: middle; margin-left: 5px;" class="course-forum-profile-badgeville"></span><span style="vertical-align:middle">· </span><a href="https://class.coursera.org/algs4partII-001/forum/thread?thread_id=82#post-undefined" name="post-undefined" style="vertical-align:middle"> <time datetime="undefined" title="undefined, undefined NaNth NaN, 12:NaN am +00:00">a few seconds ago</time>&nbsp;<span class="icon-link"></span></a></h5></div><div class="course-forum-post-text"></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-vote-hint-undefined" data-popup="#course-forum-post-vote-hint-undefined" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-vote-controls"><div tabindex="0" aria-label="Vote this post up" data-direction-value="1" role="button" class="course-forum-post-vote-button course-forum-post-vote-up course-forum-vote-inactive course-forum-post-vote-disabled"><i class="icon-arrow-up"></i></div><span class="course-forum-post-vote-count "></span><div tabindex="0" aria-label="Vote this post down" data-direction-value="-1" role="button" class="course-forum-post-vote-button course-forum-post-vote-down course-forum-vote-inactive course-forum-post-vote-disabled"><i class="icon-arrow-down"></i></div></div><div tabindex="0" role="button" aria-haspopup="true" aria-expanded="false" aria-owns="course-forum-post-flag-hint-undefined" data-popup="#course-forum-post-flag-hint-undefined" data-popup-direction="sw" data-popup-bind-open="mouseenter" class="course-forum-post-controls-report">·
+flag</div><div id="course-forum-post-flag-hint-undefined" class="course-forum-post-vote-hint help-block hide"> Please flag this if you think this post is inappropriate or a violation of the honor code.</div><div style="clear: both; height: 3px;"></div></div><div class="course-forum-post-edit-container" style=""><div class="course-forum-post-header">New post</div><form class="course-forum-post-edit-form"><p class="help-block">Please be considerate and constructive when talking to your fellow students.<br>
+<span class="icon-thumbs-down"> Bad</span>: “You’re wrong and you’re an idiot.” <br>
+<span class="icon-thumbs-up"> Good</span>: “Hmm. I think this is not necessarily true because...”<br></p><input type="hidden" name="text_type" value="html"><div class="control-group"><label class="hidden">Message</label><div style="position: relative;" role="toolbar" tabindex="0" title="HTML editing toolbar" class="coursera-wysihtml5-toolbar"><div style="overflow:auto;"><div style="float:left;" class="left coursera-wysihtml5-commands"><span data-wysihtml5-order="0" class="hide"></span><button data-wysihtml5-order="1" data-wysihtml5-command="bold" style="font-weight:bold; width: 30px;" type="button" title="Make text bold" class="coursera-wysihtml5-toolbar-item" href="javascript:;" unselectable="on">B</button><button data-wysihtml5-order="2" data-wysihtml5-command="italic" style="font-style:italic; font-family: serif; width: 30px;" type="button" title="Make text italic" class="coursera-wysihtml5-toolbar-item" href="javascript:;" unselectable="on">I</button><button data-wysihtml5-order="3" data-wysihtml5-command="insertUnOrderedList" type="button" title="Insert bullets" style="width:30px;" class="coursera-wysihtml5-toolbar-item" href="javascript:;" unselectable="on"> <span class="icon-list-ul"></span></button><button data-wysihtml5-order="4" data-wysihtml5-command="insertOrderedList" type="button" title="Insert numbered bullets" style="width:30px;" class="coursera-wysihtml5-toolbar-item" href="javascript:;" unselectable="on"> <span class="icon-list-ol"></span></button><button data-wysihtml5-custom-command="link" type="button" unselectable="on" title="Insert link" class="coursera-wysihtml5-toolbar-item" data-wysihtml5-order="5"><span class="icon-link"></span> Link</button><button data-wysihtml5-command="code" data-wysihtml5-order="6" type="button" class="coursera-wysihtml5-toolbar-item" href="javascript:;" unselectable="on">&lt;code&gt;</button><button data-wysihtml5-custom-command="image" data-wysihtml5-order="7" type="button" unselectable="on" title="Insert image" class="coursera-wysihtml5-toolbar-item"><span class="icon-picture"></span> Pic</button><button data-wysihtml5-custom-command="latex" type="button" unselectable="on" title="Math Options" data-popup="#coursera-wysihtml5-toolbar-latex-popup" aria-haspopup="true" aria-expanded="false" aria-owns="coursera-wysihtml5-toolbar-latex-popup" data-popup-close="data-popup-close" data-popup-direction="sw" class="coursera-wysihtml5-toolbar-item" data-wysihtml5-order="100">Math</button><div id="coursera-wysihtml5-toolbar-latex-popup" style="display:none;" data-wysihtml5-order="100"><a data-popup-close="data-popup-close" class="coursera-wysihtml5-toolbar-latex-popup-item coursera-wysihtml5-toolbar-latex-popup-item-editor">Equation Builder</a><a data-popup-close="data-popup-close" class="coursera-wysihtml5-toolbar-latex-popup-item coursera-wysihtml5-toolbar-latex-popup-item-preview">Full Preview</a></div></div><div style="float:right;" class="right coursera-wysihtml5-command-view"><span data-wysihtml5-order="0" class="hide"></span><div class="coursera-wysihtml5-toolbar-modes" data-wysihtml5-order="100"><button data-wysihtml5-custom-command="change-editor" type="button" title="Change editing mode to HTML" class="coursera-wysihtml5-toolbar-item coursera-wysihtml5-toolbar-item-right coursera-wysihtml5-toolbar-source"><span>&lt;HTML&gt;</span></button><button data-wysihtml5-custom-command="change-editor" type="button" title="Change editing mode to Markdown" class="coursera-wysihtml5-toolbar-item coursera-wysihtml5-toolbar-item-right coursera-wysihtml5-toolbar-markdown"> <span>`MD`</span></button><button data-wysihtml5-custom-command="change-editor" type="button" title="Change editing mode to rich editor" style="display:none;" class="coursera-wysihtml5-toolbar-item coursera-wysihtml5-toolbar-item-right coursera-wysihtml5-toolbar-wysi"><span>Rich</span></button></div><button type="button" title="Close Preview" style="display:none;" class="coursera-wysihtml5-toolbar-item coursera-wysihtml5-toolbar-item-right coursera-wysihtml5-toolbar-latex-preview" data-wysihtml5-order="200">Close Math Preview</button></div></div><div class="coursera-wysihtml5-toolbar-modals"><div data-wysihtml5-modal-link="data-wysihtml5-modal-link" data-modal-overlay-class="coursera-wysihtml5-overlay" role="dialog" aria-label="Create a link" class="modal hide"><form><div class="modal-body"><label style="display:inline-block;margin-right:15px;"><span>URL &nbsp;&nbsp;</span><input name="url" placeholder="http://" style="width:350px;" class="coursera-wysihtml5-modal-url"></label></div><div class="modal-footer"><button type="submit" data-modal-close="data-modal-close" style="margin-right:10px;" class="btn coursera-wysihtml5-modal-link-submit">Create</button><a data-modal-close="data-modal-close" href="javascript:;">Cancel</a></div></form></div><div data-wysihtml5-modal-image="data-wysihtml5-modal-image" data-modal-overlay-class="coursera-wysihtml5-overlay" role="dialog" aria-label="Create Image" tabindex="-1" class="modal hide" style="position: fixed; left: 50%; margin-left: 0px; z-index: 10000; top: 50%; margin-top: 0px;"><form><div class="modal-body"><div class="control-group bootstrap-wysihtml5-upload-image"><div style="text-align:center;" class="uploader-controls transloadit-uploader"><div class="uploader-preview" style="display: none;"><div><img src=""></div><div style="margin-top:10px;"> <span>What size would you like to embed it at? </span><input type="text" style="width:50px;margin-left: 5px; margin-right:5px;" class="uploader-input-width"><span>x</span><input type="text" style="width:50px;margin-left:5px;" class="uploader-input-height"></div></div><div class="uploader-side"><button type="button" class="btn uploader-button">Pick File</button><div class="uploader-file-input"><input type="file" name="my_file" accept="image/png,image/jpeg,image/gif,image/jpg"></div><div style="display:none;" class="progress progress-striped active uploader-progress"><div style="width:0%" class="bar"></div></div><div class="uploader-input hide"><input type="text" value="" name="result" class="uploader-input-url"></div></div></div></div></div><div class="modal-footer"><button type="submit" data-modal-close="data-modal-close" style="margin-right:10px;" class="btn hide coursera-wysihtml5-modal-image-submit">Insert</button><a data-modal-close="data-modal-close" href="javascript:;">Cancel</a></div></form></div><div data-wysihtml5-modal-latex="data-wysihtml5-modal-latex" data-modal-overlay-class="coursera-wysihtml5-overlay" class="modal hide"><form style="margin:0px;padding:0px;"><div style="overflow:auto;"><div style="float:left;width:20%;"><label style="padding:10px;font-weight:bold;text-align:right;">LaTeX:</label></div><div style="float:right;width:80%;"><textarea name="latex" placeholder="enter a latex equation" class="coursera-wysihtml5-modal-latex-textarea"></textarea></div></div><div class="coursera-wysihtml5-latex-preview-area"><div style="float:left;width:20%;"> <label style="padding:10px;font-weight:bold;text-align:right;">Preview:</label></div><div style="float:right;width:80%;"><div class="coursera-wysihtml5-latex-preview"><span class="MathJax_Preview"></span><span class="MathJax" id="MathJax-Element-1-Frame" role="textbox" aria-readonly="true" style=""><nobr><span class="math" id="MathJax-Span-1"><span style="display: inline-block; position: relative; width: 0px; height: 0px; font-size: 120%;"><span style="position: absolute; clip: rect(64px 16800px 70px -9px); top: -67px; left: 0px;"><span class="mrow" id="MathJax-Span-2"></span><span style="display: inline-block; width: 0px; height: 67px;"></span></span></span><span style="border-left-width: 0px; border-left-style: solid; display: inline-block; overflow: hidden; width: 0px; height: 2px; vertical-align: -1px;"></span></span></nobr></span><script type="math/tex" id="MathJax-Element-1"></script></div></div></div><div class="modal-footer"><button type="submit" data-modal-close="data-modal-close" style="margin-right:10px;" class="btn coursera-wysihtml5-modal-link-submit">Create</button><a data-modal-close="data-modal-close" href="javascript:;">Cancel</a></div></form></div></div></div><textarea name="post_text" style="width: 100%; min-height: 100px; height: 100px; overflow-y: hidden; display: none;" class="coursera-wysihtml5-rich-editor"></textarea><input type="hidden" name="_wysihtml5_mode" value="1"><iframe class="wysihtml5-sandbox" security="restricted" allowtransparency="true" frameborder="0" width="0" height="0" marginwidth="0" marginheight="0" style="background-color: rgb(255, 255, 255); border-width: 1px; clear: none; display: inline-block; float: none; margin: 0px; outline: rgb(85, 85, 85) none 0px; outline-offset: 0px; padding: 4px 6px; position: static; top: auto; left: auto; right: auto; bottom: auto; z-index: auto; vertical-align: middle; text-align: start; box-sizing: border-box; -webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 0.9090908765792847px 0.9090908765792847px 0px inset; box-shadow: rgba(0, 0, 0, 0.0745098) 0px 0.9090908765792847px 0.9090908765792847px 0px inset; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border-top-left-radius: 4px; width: 100%; min-width: 0px; min-height: 100px; max-width: none; max-height: none; height: 100px;"></iframe><div class="coursera-wysihtml5-footer"><div class="coursera-wysihtml5-footer-rich"><div style="float:left;"></div><div style="float:right;"><label class="coursera-wysihtml5-default-mode checkbox"><input type="checkbox" name="default-mode">Default Editor</label></div></div></div></div><div class="controls"><label class="checkbox"><input type="checkbox" name="anonymous" value="1">Make this post anonymous to other students</label></div><div class="controls"><label class="checkbox"><input type="checkbox" name="subscribe" value="1" checked="checked">Subscribe to this thread at the same time</label></div><div class="control-group"><button type="submit" class="btn course-forum-post-edit-save">Add post</button><span>&nbsp; &nbsp;</span><a href="javascript:void(0)" role="Button" class="course-forum-post-edit-cancel">Cancel</a></div></form></div></li></div></div></div></div></div><div style="display:none; position: fixed; bottom: 10px; right: 40px; width: 240px;" class="alert alert-info course-forum-hangouts-popup"><button type="button" data-action="hide" class="close">×</button>This looks like a great topic! Maybe you'd like to...<a style="margin-bottom:6px;" data-action="start" class="btn btn-info">Start a Google+ Hangout on this topic</a><p style="margin-bottom:10px; display:none;">Go to <a href="https://class.coursera.org/behavioralecon-001/wiki/view?page=ScheduleGoogleHangouts&from_popout" target="_blank">the scheduler page</a> to learn how, and post the URL to this thread after to let people know.</p><a data-action="join" class="btn btn-info">Join a Google+ Hangout on this topic</a><p style="margin-bottom:15px; display:none;">Hm, it looks like there's none yet on this topic, but you can <a href="https://class.coursera.org/behavioralecon-001/wiki/view?page=ScheduleGoogleHangouts&from_popout" target="_blank">go here</a> to check out all the upcoming hangouts or schedule your own.</p><a href="javascript:void(0)" data-action="nothanks">No, thanks, I'm not interested in hangouts.</a></div></div></div>
+
+            </div>
+        </div>
+    </div>
+        
+    
+        <script type="text/javascript" async="" src="./Timing_files/204.min.js"></script><script type="text/javascript" async="" src="./Timing_files/ga.js"></script><script src="./Timing_files/spark.js"></script>
+    
+    <script>
+        $("[data-readme]").each(function() {
+            window.ReadMe(this);
+        });
+    </script>
+
+    <script src="./Timing_files/modal_focus.js" type="text/javascript"></script>
+    <script src="./Timing_files/get_query_parameters.js" type="text/javascript"></script>
+    <script src="./Timing_files/signature_track.js" type="text/javascript"></script>
+    <script src="./Timing_files/item_list.js" type="text/javascript"></script>
+    <script src="./Timing_files/navbar.js" type="text/javascript"></script>
+
+    
+    <script type="text/javascript">
+        // SET UP THE MULTITRACKER
+                window.logger = window.Log({level:"error"});
+                window.multitracker = window.MultiTracker({logger:window.logger});
+        window.multitracker.register('204', window._204 = window._204 || []);
+        window.multitracker.register('ga', window._gaq = window._gaq || [], 'google');
+
+        // SET UP GA and 204
+        window._gaq.push(['_setAccount', 'UA-28377374-1']);
+        window._gaq.push(['_setDomainName', 'coursera.org']);
+        window._gaq.push(['_setAllowLinker', true]);  
+        window._gaq.push(['_trackPageview']);
+        
+        window._204.push({key:"pageview", val:{}});
+
+        // override our multitracker queues with the ga queue when it is ready
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        
+          ga.onload = ga.onreadystatechange = function() {
+              ga.onreadystatechange = ga.onload = null;
+              window.multitracker.get('ga').queue = window._gaq;
+          };
+        })();
+
+        // override our multitracker queues with the 204 queue when it is ready
+        (function() {
+          var a = document.createElement('script'); a.type = 'text/javascript'; a.async = true;
+          a.src = 'https://eventing.coursera.org/204.min.js?client=spark&user=1484404';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(a, s);
+          a.onload = a.onreadystatechange = function() {
+              a.onreadystatechange = a.onload = null;
+              window.multitracker.get('204').queue = window._204;
+          };
+        })();
+    </script>
+
+    <script>
+      // Set up shared AB testing object
+      (function() {
+          var userId = $('[data-user-id]:first').attr('data-user-id');
+
+          // Adapted from app/www/static/js/models/user.js
+          if (userId == 0) {
+              userId = window.Cookie.get('ab-session-id');
+              if (!userId) {
+                  userId =
+                      (Math.random() * 10000000000).toFixed() + '-' +
+                      (new Date()).getTime();
+                  window.Cookie.set("ab-session-id", userId, { expires: 36500 });
+              }
+          }
+
+                        window.ab = window.AB(userId, {debug:false, tracker:window.multitracker, logger:window.logger});
+          
+      })();
+      // Set up help widget
+      (function() {
+        $("[data-helpwidget]").each(function() {
+            window.HelpWidget(this, {tracker: window.multitracker});
+        });
+       })();
+    </script>
+
+    <script type="text/x-mathjax-config;executed=true">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "MML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+<script type="text/javascript">
+(function () {
+
+  function loadMathJax() {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://duqnjvq4jwr55.cloudfront.net/2.1/MathJax.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  }
+
+  window.loadOrRefreshMathJax = function(domId) {
+    if (window.MathJax) {
+      if (domId) {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, domId]);
+      } else {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+      }
+    } else {
+      loadMathJax();
+    }
+  }
+})();
+</script>
+    
+    <script type="text/javascript">
+        var site_base_url = "https:\/\/www.coursera.org\/";
+        var site_static_asset_url = "https:\/\/dt5zaw6a98blc.cloudfront.net\/site-static\/";
+        var spark_class_short_name = "algs4partII";
+        var spark_class_id = 970478;
+        var spark_class_url = "\/algs4partII-001";
+        var spark_signature_url = "https:\/\/class.coursera.org\/algs4partII-001\/signature\/";
+        
+        var course_strings_name = "Algorithms, Part II";
+        var student_full_name = "Vishal Juneja";
+    </script>
+
+    
+<script type="text/javascript" src="./Timing_files/require.js"></script><script type="text/javascript" data-baseurl="https://d2wvvaown1ul17.cloudfront.net/site-static/8be561f5d56b20136c99ea175f81d0a2cc74b164/" data-version="8be561f5d56b20136c99ea175f81d0a2cc74b164" data-timestamp="1369679880735" data-debug="0" id="_require">(function(el) {
+  //prevent throw
+  require.onError = function() { };
+  
+  require.config({
+    enforceDefine: true,
+    waitSeconds: 14,
+    baseUrl: el.getAttribute("data-baseurl"),
+    urlArgs: el.getAttribute("data-debug") == "1" ? "v=" + el.getAttribute("data-timestamp") : "",
+    shim: {
+       "underscore": {
+          exports: "_"
+       },
+       
+       "backbone": {
+          deps: ["underscore", "jquery"],
+          exports: "Backbone",
+          init: function(_, $) {
+            _.noConflict();
+            $.noConflict();
+            return Backbone.noConflict();
+          }
+       }
+    },
+    paths: {
+       "jquery":       "js/core/jquery",
+       "underscore":   "js/core/underscore",
+       "backbone":     "js/core/backbone"
+    },
+    callback: function() {
+      require(["pages/forum/widgets"]);
+    }
+  });
+})(document.getElementById("_require"));</script>
+
+
+
+
+<div class="hide confirm-navigation modal"><div class="modal-header"><h3>Confirm Navigation</h3></div><div class="modal-body"><div class="confirm-navigation-message"></div><div>Are you sure you want to leave this page?</div></div><div class="modal-footer"><button data-modal-close="data-modal-close" class="btn confirm-navigation-stay">Stay on this Page</button><button data-modal-close="data-modal-close" class="btn btn-danger confirm-navigation-leave">Leave this Page</button></div></div><div class="coursera-async-message" style="display: none;"></div><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; padding: 0px; border: 0px; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-family: MathJax_Size1, monospace;"></div></body></html>
